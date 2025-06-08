@@ -1,4 +1,4 @@
-# Exploration of the Sequence Space of Nitroreductases
+# Exploration of Nitroreductase Protein Sequence Datasets for Generative Modeling
 
 ## Description
 
