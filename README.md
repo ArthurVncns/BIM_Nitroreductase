@@ -33,12 +33,14 @@ List of libraries and tools required to run the project:
 
 - Python 3.12
 - Jupyter Notebook
+- Biopython
 - NumPy
 - Pandas
 - Scikit-learn
 - PyTorch
 - Matplotlib
 - Seaborn
+- TQDM
 - HMMER
 
 ## Authors
