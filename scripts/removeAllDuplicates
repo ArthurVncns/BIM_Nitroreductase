@@ -1,0 +1,13 @@
+awk 'BEGIN{count = 0}
+     NR%2{name = $1}
+     !(NR%2){ x = 1;
+        for ( i=1; i<=count; i++ )
+	  if ( $1 == printed[i] )
+	    x = 0;
+	if (x){
+	   count++;
+	   printed[count]=$1;
+	   print name;
+	   print $1;
+	}   
+     }' $1

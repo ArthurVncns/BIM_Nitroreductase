@@ -1,0 +1,12 @@
+awk '{
+    split($0,v,""); 
+    if ( v[1]==">" ) {
+         if ( NR>1 ) printf("\n"); 
+         printf("%s\n", $0); 
+    }
+    else { 
+    	 for(i=1;i<=length($0);i++) 
+            if( v[i] == "-" || v[i] != tolower(v[i]) ) 
+	          printf("%c",v[i]);
+    }
+}' $1 

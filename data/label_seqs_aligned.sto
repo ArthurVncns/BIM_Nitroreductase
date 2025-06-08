@@ -1,0 +1,1673 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00881.hmm
+# target sequence database:        label_seqs.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Nitroreductase  [M=167]
+Accession:   PF00881.29
+Description: Nitroreductase family
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    5.4e-59  191.3   0.0    3.7e-29   94.2   0.0    2.9  2  tr|C9YJD4|Release               2021_03/2021_03|02-Jun-2021
+    2.2e-43  140.6   0.0    2.5e-43  140.4   0.0    1.0  1  tr|Q17ZU8|Q17ZU8_CLOD6          
+    3.4e-42  136.7   0.0    4.5e-42  136.3   0.0    1.2  1  tr|Q39RS1|Q39RS1_GEOMG          
+    2.4e-38  124.1   0.0    3.1e-38  123.8   0.0    1.1  1  tr|X5M410|X5M410_BARHN          
+    1.5e-37  121.6   0.0    2.1e-37  121.1   0.0    1.2  1  tr|Q74GM9|Q74GM9_GEOSL          
+    5.6e-37  119.7   0.0    2.4e-22   72.1   0.0    2.1  2  tr|Q3MB62|Q3MB62_TRIV2          
+      9e-37  119.0   0.4    1.2e-36  118.6   0.4    1.2  1  sp|Q60049|NOX_THET8             
+    3.4e-35  113.9   0.0    4.2e-35  113.6   0.0    1.1  1  sp|Q92PC8|BLUB_RHIME            
+    9.1e-35  112.5   0.7    4.4e-19   61.5   0.1    2.1  2  tr|Q7MX99|Q7MX99_PORGI          
+    1.3e-34  112.0   0.0    1.6e-34  111.7   0.0    1.1  1  tr|Q81HL8|Q81HL8_BACCR          
+    1.4e-34  111.9   0.0    1.7e-34  111.6   0.0    1.1  1  tr|Q5LDN3|Q5LDN3_BACFN          
+    8.5e-33  106.1   0.0      2e-32  104.9   0.0    1.6  1  sp|P9WP79|FBIB_MYCTU            
+    8.5e-33  106.1   0.0      2e-32  104.9   0.0    1.6  1  sp|P9WP79|FBIB_MYCTU            
+      3e-32  104.3   0.0    7.1e-17   54.3   0.0    2.0  2  tr|C9YJL7|Release               2021_03/2021_03|02-Jun-2021
+    8.9e-32  102.8   0.1    2.4e-31  101.4   0.1    1.6  1  tr|B1YG32|B1YG32_EXIS2          
+    2.1e-31  101.6   0.5    5.7e-21   67.6   0.1    2.1  2  tr|Q97IT9|Q97IT9_CLOAB          
+    2.1e-31  101.6   1.0    5.7e-31  100.1   1.0    1.6  1  sp|A0R6D0|NFNB_MYCS2            
+    2.1e-31  101.6   1.0    5.7e-31  100.1   1.0    1.6  1  sp|A0R6D0|NFNB_MYCS2            
+      5e-31  100.3   0.0    6.1e-31  100.1   0.0    1.1  1  tr|Q8DVW4|Q8DVW4_STRMU          
+      5e-31  100.3   0.0    6.3e-31  100.0   0.0    1.1  1  tr|A0A0H2UP38|A0A0H2UP38_STRPN  
+    7.8e-31   99.7   0.1    9.9e-31   99.4   0.1    1.1  1  sp|P15888|NFSB_SALTY            
+    1.2e-30   99.1   0.1    2.6e-30   98.0   0.1    1.5  1  tr|Q182R2|Q182R2_CLOD6          
+    5.4e-30   97.0   0.0      7e-30   96.6   0.0    1.1  1  sp|P38489|NFSB_ECOLI            
+    5.4e-30   97.0   0.0      7e-30   96.6   0.0    1.1  1  sp|P38489|NFSB_ECOLI            
+    5.4e-30   97.0   0.0      7e-30   96.6   0.0    1.1  1  sp|P38489|NFSB_ECOLI            
+    1.6e-29   95.4   0.4    2.1e-26   85.3   0.4    2.3  1  tr|Q9WYL7|Q9WYL7_THEMA          
+    7.2e-29   93.3   0.0    8.5e-29   93.1   0.0    1.1  1  sp|P96692|MHQN_BACSU            
+    8.7e-29   93.0   0.1    1.6e-28   92.2   0.1    1.4  1  tr|A0A0H2VHN8|A0A0H2VHN8_STAES  
+    1.8e-28   92.0   2.1    1.7e-27   88.9   2.1    2.1  1  tr|Q87FS7|Q87FS7_VIBPA          
+    2.7e-28   91.4   0.1    2.5e-26   85.0   0.1    2.1  1  tr|A0PZS2|A0PZS2_CLONN          
+      3e-28   91.3   0.1    3.1e-24   78.2   0.1    2.2  1  tr|Q8ABC9|Q8ABC9_BACTN          
+    3.3e-28   91.2   0.2    6.9e-28   90.1   0.2    1.5  1  sp|Q01234|NFSB_ENTCL            
+    4.9e-28   90.6   0.0      6e-28   90.3   0.0    1.1  1  tr|B8FRE0|B8FRE0_DESHD          
+    5.8e-28   90.4   0.0      9e-17   53.9   0.0    2.1  2  tr|Q180K0|Q180K0_CLOD6          
+    8.5e-28   89.8   0.0    9.8e-28   89.6   0.0    1.0  1  tr|Q81EW9|Q81EW9_BACCR          
+      1e-27   89.6   0.1    2.6e-27   88.3   0.1    1.6  1  tr|Q9A120|Q9A120_STRP1          
+    1.5e-27   89.0   0.0    3.3e-27   87.9   0.0    1.7  1  sp|P0DX42|CLAER_LACPN           
+    1.5e-27   89.0   0.0    3.3e-27   87.9   0.0    1.7  1  tr|U6C5W9|U6C5W9_LACPN          
+    1.9e-27   88.6   0.1    2.3e-27   88.4   0.1    1.1  1  sp|P0ACY1|YDJA_ECOLI            
+    2.1e-27   88.5   3.8    1.7e-16   53.1   0.1    2.1  2  tr|Q314Q8|Q314Q8_OLEA2          
+    1.5e-26   85.7   0.0      2e-26   85.4   0.0    1.1  1  tr|Q472T4|Q472T4_CUPPJ          
+    2.4e-26   85.1   2.9    2.2e-25   82.0   2.9    2.1  1  sp|Q56691|FRP_VIBHA             
+    5.5e-26   83.9   0.0    7.2e-26   83.5   0.0    1.1  1  sp|F4KU78|IYD_HALH1             
+    4.8e-25   80.9   0.1      2e-24   78.9   0.1    1.9  1  sp|P94424|NFRA2_BACSU           
+    5.9e-25   80.6   0.2    5.1e-16   51.5   0.1    2.1  2  tr|A9CKT4|A9CKT4_AGRFC          
+    3.7e-24   78.0   0.0      5e-24   77.6   0.0    1.2  1  tr|Q7BGI8|Q7BGI8_HELPX          
+    7.2e-24   77.0   0.2    2.1e-23   75.5   0.0    1.8  1  tr|A0A0K0VJM8|A0A0K0VJM8_PRIMG  
+    1.3e-23   76.2   0.1    1.5e-23   76.0   0.1    1.1  1  tr|A9CIP6|A9CIP6_AGRFC          
+      4e-23   74.6   0.1    1.3e-22   73.0   0.1    1.8  1  sp|O25608|RDXA_HELPY            
+    6.5e-23   73.9   0.0    7.6e-23   73.7   0.0    1.1  1  tr|Q9CED0|Q9CED0_LACLA          
+    6.5e-23   73.9   0.0    7.6e-23   73.7   0.0    1.1  1  tr|Q9CED0|Q9CED0_LACLA          
+    3.4e-22   71.6   0.0    8.5e-22   70.3   0.0    1.6  1  sp|Q9DCX8|IYD1_MOUSE            
+    3.4e-22   71.6   0.0    8.5e-22   70.3   0.0    1.6  1  sp|Q9DCX8|IYD1_MOUSE            
+    4.4e-22   71.2   0.0    5.5e-22   70.9   0.0    1.1  1  tr|Q5LB10|Q5LB10_BACFN          
+    7.9e-22   70.4   0.1    1.7e-21   69.3   0.1    1.6  1  sp|P39605|NFRA1_BACSU           
+      2e-21   69.1   1.5    3.7e-20   65.0   1.5    2.1  1  sp|P17117|NFSA_ECOLI            
+      2e-21   69.1   1.5    3.7e-20   65.0   1.5    2.1  1  sp|P17117|NFSA_ECOLI            
+    2.6e-21   68.7   0.0    4.3e-21   68.0   0.0    1.4  1  sp|Q6PHW0|IYD1_HUMAN            
+    2.6e-21   68.7   0.0    4.3e-21   68.0   0.0    1.4  1  sp|Q6PHW0|IYD1_HUMAN            
+    3.1e-21   68.5   0.2    5.2e-21   67.7   0.2    1.4  1  sp|P46072|FRA1_ALIFS            
+    3.5e-21   68.3   0.1    4.4e-21   68.0   0.1    1.0  1  tr|Q8DW21|Q8DW21_STRMU          
+    2.9e-20   65.3   0.0      4e-20   64.8   0.0    1.2  1  tr|Q5R179|Q5R179_IDILO          
+    3.6e-19   61.7   0.1    8.8e-18   57.2   0.1    2.3  1  tr|Q5L9C9|Q5L9C9_BACFN          
+    8.3e-19   60.6   1.3    9.3e-17   53.9   1.3    2.2  1  tr|Q8KFI1|Q8KFI1_CHLTE          
+    6.1e-18   57.7   0.0    9.4e-18   57.1   0.0    1.3  1  tr|B8HTZ1|B8HTZ1_CYAP4          
+    1.6e-12   40.1   0.9      3e-05   16.4   0.0    3.3  3  tr|A0R2V4|A0R2V4_MYCS2          
+    5.5e-11   35.1   0.0    9.9e-11   34.3   0.0    1.4  1  sp|P37261|FRM2_YEAST            
+    5.5e-11   35.1   0.0    9.9e-11   34.3   0.0    1.4  1  sp|P37261|FRM2_YEAST            
+    3.5e-10   32.5   0.0    0.00024   13.5   0.0    3.4  3  tr|Q9X1S2|Q9X1S2_THEMA          
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|C9YJD4|Release  2021_03/2021_03|02-Jun-2021
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2   0.0   3.5e-29   3.7e-29       1     144 [.      14     136 ..      14     195 .. 0.91
+   2 !   94.2   0.0   3.5e-29   3.7e-29       1     144 [.     227     349 ..     227     408 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 3.5e-29
+                        HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSSE CS
+     Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgapv 92 
+                        i++RrSiRkf++e +++e++++ll++a  aPs++n qpw+++vv++++l++++++  l+ + e    +            +++ + ++gap+
+  tr|C9YJD4|Release  14 IQSRRSIRKFTTEQISDEQVNTLLHCAFAAPSGCNKQPWHITVVQDQKLLKEISDDTLSRIHEVSNVEI-----------NKNFKLFYGAPT 94 
+                        789*****************************************9999999999999999999999997...........78899******* PP
+
+                        EEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG CS
+     Nitroreductase  93 livitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd 144
+                        +++i          + +++ ++a  d+gi+  n+ +aA++lGlgsc+ig++ 
+  tr|C9YJD4|Release  95 VLFI----------SYDESSSWAPYDIGILTGNITTAAQALGLGSCIIGMVR 136
+                        ****..........9999999****************************986 PP
+
+  == domain 2  score: 94.2 bits;  conditional E-value: 3.5e-29
+                        HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSSE CS
+     Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgapv 92 
+                        i++RrSiRkf++e +++e++++ll++a  aPs++n qpw+++vv++++l++++++  l+ + e    +            +++ + ++gap+
+  tr|C9YJD4|Release 227 IQSRRSIRKFTTEQISDEQVNTLLHCAFAAPSGCNKQPWHITVVQDQKLLKEISDDTLSRIHEVSNVEI-----------NKNFKLFYGAPT 307
+                        789*****************************************9999999999999999999999997...........78899******* PP
+
+                        EEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG CS
+     Nitroreductase  93 livitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd 144
+                        +++i          + +++ ++a  d+gi+  n+ +aA++lGlgsc+ig++ 
+  tr|C9YJD4|Release 308 VLFI----------SYDESSSWAPYDIGILTGNITTAAQALGLGSCIIGMVR 349
+                        ****..........9999999****************************986 PP
+
+>> tr|Q17ZU8|Q17ZU8_CLOD6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.4   0.0   2.3e-43   2.5e-43       1     167 []       6     177 ..       6     177 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 140.4 bits;  conditional E-value: 2.3e-43
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG.HHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee.nskllrqda 86 
+                             i +RrSiRk++++++++e++e+++ea+ +aPs++n+qpwrf+v+ +e+++e +++a+ + +++e  ++ ll+ ++++ + ++++ ++
+  tr|Q17ZU8|Q17ZU8_CLOD6   6 ISKRRSIRKYKNQSISHETIEKIIEAGINAPSSKNRQPWRFVVI-TEKEKESMLKAMSKGIQNEINDNGLLPGSRQHiAGANYTVEI 91 
+                             789*****************************************.9******************************9999******* PP
+
+                             HHHSSEEEEE....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S.SEEEEEEEEE- CS
+          Nitroreductase  87 lrgapvlivi....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpkerlvlivavGy 167
+                             +++apv+i+i    ++++ e++  +e+  + + ++++g+a+qn+ L A +lGlgs wi  + +a+  ++++l+ +  +lv+++++Gy
+  tr|Q17ZU8|Q17ZU8_CLOD6  92 MKQAPVTIFIlnilGKSPLEKLSPEERFYEMANMQSIGAAIQNMSLTAVELGLGSLWICDVYFAYreLCEWLNTD-SQLVAAISLGY 177
+                             *************99999*******************************************988888********.**********9 PP
+
+>> tr|Q39RS1|Q39RS1_GEOMG  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.3   0.0   4.3e-42   4.5e-42       1     167 []       7     161 ..       7     161 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 136.3 bits;  conditional E-value: 4.3e-42
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             ir+RrS+Rkf+d pv++e+l+++l+aar aPs+ n+q wrf+vv++++++ +++e++  ++   ++ ++           + +q+al
+  tr|Q39RS1|Q39RS1_GEOMG   7 IRTRRSVRKFSDRPVEPEKLRAVLDAARLAPSWANMQCWRFVVVEDQATKVQISELSYVEAYFGPKGYKS----------NPAQKAL 83 
+                             89******************************************99999999999999999999998873..........6689*** PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavGy 167
+                             ++apv+i++   + e  + +e r++++ + d+giaaqnl+LaA++lGlgs+++g fde+++ +llg+p   r+v+++++Gy
+  tr|Q39RS1|Q39RS1_GEOMG  84 AEAPVVIIA---CGEPPQSGELRGQQYYLTDVGIAAQNLMLAAHDLGLGSVFVGVFDEQQLGELLGIPAeLRIVGLFPLGY 161
+                             *********...********************************************************87**********9 PP
+
+>> tr|X5M410|X5M410_BARHN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.8   0.0     3e-38   3.1e-38       1     167 []      12     201 ..      12     201 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 123.8 bits;  conditional E-value: 3e-38
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG.......... CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee.......... 77 
+                             i +R+SiR+f+d+pv++e+++e+l+ a+raPs++nlqpw+++v+ ++++++k+ + + +++l+  + +++ +++  +          
+  tr|X5M410|X5M410_BARHN  12 ILSRKSIRAFTDQPVTQETIREILKLAARAPSGTNLQPWQVIVL-TGKILQKVGQELSQLVLSGIKGEREYHYYPRQwrepylsrrr 97 
+                             679*****************************************.9****999999999999999999999999988999******* PP
+
+                             ....................HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG CS
+          Nitroreductase  78 ....................nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd 144
+                                                  +++ ++  ++gapv +++           + +++  ++ld g+++q+++LaA+  Gl++c + +f+
+  tr|X5M410|X5M410_BARHN  98 kvgldlykslgiqkgdqekmLHQKAKNFLFYGAPVGLLF---------TIDHDMEMGSWLDLGMFMQTIMLAARGFGLDTCAQAAFA 175
+                             ***************************************.........9999*********************************** PP
+
+                             GGH..HHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase 145 eaa..vakllglpk.erlvlivavGy 167
+                             +++  ++ ll +p+  ++++ +a+Gy
+  tr|X5M410|X5M410_BARHN 176 DYHkqIRSLLSVPSdRHIICGMALGY 201
+                             99999********88**********9 PP
+
+>> tr|Q74GM9|Q74GM9_GEOSL  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.1   0.0     2e-37   2.1e-37       1     167 []       7     161 ..       7     161 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 121.1 bits;  conditional E-value: 2e-37
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             ir+RrS+R+f+d pv++e+l+ +leaar+aPs+ n+q  rf+vv+++e+++k++e+++ ++  ++  +++          + +q+al
+  tr|Q74GM9|Q74GM9_GEOSL   7 IRTRRSVRAFSDRPVEPEKLQMVLEAARQAPSWANMQCSRFVVVQDAEVKAKISELSFVEAFFAPLGYRT----------NPAQKAL 83 
+                             89********************************************************999999999973..........6679*** PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavGy 167
+                             ++apv+iv+   +    + ++ r++++ + d+gia +nl+LaA++ Glgs+++g f e+++ +ll++p+  r+v+++++Gy
+  tr|Q74GM9|Q74GM9_GEOSL  84 AEAPVVIVA---CGVPGESGDLRGQQYYMTDVGIATENLMLAAHAVGLGSVFVGVFGEEQLGDLLDIPPeIRIVGLFPLGY 161
+                             *********...********************************************************99**********9 PP
+
+>> tr|Q3MB62|Q3MB62_TRIV2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.6   0.0   3.1e-14   3.3e-14      28     159 ..      97     230 ..      81     237 .. 0.91
+   2 !   72.1   0.0   2.3e-22   2.4e-22       3     167 .]     332     508 ..     330     508 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.6 bits;  conditional E-value: 3.1e-14
+                             HTS--GGG---EEEEEE.-CCCH.......HHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSSEEEEE---TTS---HH CS
+          Nitroreductase  28 rraPsagnlqpwrfyvvsseelr.......eklaeaaleqlleeeaaaellaekeeenskllrqdalrgapvlivitaeaseqerka 107
+                             r aPsag+l+p ++yvvs++  +       ++ + ++l + +e++ +++l+           +++al+  ++ i++ta + ++ +++
+  tr|Q3MB62|Q3MB62_TRIV2  97 RAAPSAGGLYPAEVYVVSRGTPLlspglynYQCRTHSLIHYWESDVWQSLQEA-------CFWHPALESTQLAIIVTAVFYRSAWRY 176
+                             78***************6555557************************98887.......99************************* PP
+
+                             HHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S...SEE CS
+          Nitroreductase 108 eerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk..erl 159
+                             e+rayr+ +ld+g+++ n+ L+A+   +    iggf ++av++ll +++  e  
+  tr|Q3MB62|Q3MB62_TRIV2 177 EDRAYRRICLDTGHLLGNIELSAAITDYRPHLIGGFIDEAVNDLLYIDPlqEGA 230
+                             ************************************************663444 PP
+
+  == domain 2  score: 72.1 bits;  conditional E-value: 2.3e-22
+                             H--B---B-S----HHHHHHHHHHH...........HTS--GGG---EEEEEE..-CCCH....HHHHHHHHHHHHHHHTT-SS-GG CS
+          Nitroreductase   3 qRrSiRkfddepvpkeeleelleaa...........rraPsagnlqpwrfyvv.sseelr....eklaeaaleqlleeeaaaellae 73 
+                             +RrS+R+++ e ++ +el++ll+ +            ++P+ + l+ ++++++ +  + +    +++a++a ++l++++ +++ +  
+  tr|Q3MB62|Q3MB62_TRIV2 332 KRRSTRAYNGEELTFDELKALLDFTyqpqnyidqslDNSPDYFDLNLIETFIAvCGVQGLeagcYYYAPKA-QELRQIRFKNFRREL 417
+                             8************************9998888888888**************9999999999985555554.444555555554554 PP
+
+                             GGGGHHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEE CS
+          Nitroreductase  74 keeenskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erl 159
+                             +       l q+  r+a+++i+ t +     +++++r yr+ ++dag++ q+l LaA  l+lg+  iggf +++v+++lg+p+ e +
+  tr|Q3MB62|Q3MB62_TRIV2 418 HF----LCLGQELGRDAAAVIFHTSDLKSAIAQYGDRVYRYLHMDAGHLGQRLNLAAIQLNLGVSGIGGFFDDQVNEVLGIPNdEAV 500
+                             43....59**************************************************************************88*** PP
+
+                             EEEEEEE- CS
+          Nitroreductase 160 vlivavGy 167
+                             ++i ++G+
+  tr|Q3MB62|Q3MB62_TRIV2 501 IYITTLGR 508
+                             ****9995 PP
+
+>> sp|Q60049|NOX_THET8  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.6   0.4   1.1e-36   1.2e-36       2     167 .]      15     185 ..      14     185 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 118.6 bits;  conditional E-value: 1.1e-36
+                          HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG..........HHHH CS
+       Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee..........nskl 81 
+                           +RrSiR+++++pvp+  l+e+leaa raPsa+nlqpwr++vv++++++++l+eaa++q+ +eea+ +l+ +++ e              
+  sp|Q60049|NOX_THET8  15 LKRRSIRRYRKDPVPEGLLREILEAALRAPSAWNLQPWRIVVVRDPATKRALREAAFGQAHVEEAPVVLVLYADLEdalahldeviH--- 101
+                          58*********************************************************************9885555555555540... PP
+
+                          HHHHHHHHSSEEEEE...........---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEE CS
+       Nitroreductase  82 lrqdalrgapvlivi...........taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erl 159
+                                                     a + +  + ++e++ ++a  +++i++ +llL +++ Glgs+++ gfd ++v+ +lglp+   +
+  sp|Q60049|NOX_THET8 102 --------------PgvqgerreaqkQAIQRAFAAMGQEARKAWASGQSYILLGYLLLLLEAYGLGSVPMLGFDPERVRAILGLPShAAI 177
+                          ..............44444444444444445555889************************************************97777 PP
+
+                          EEEEEEE- CS
+       Nitroreductase 160 vlivavGy 167
+                           ++va+Gy
+  sp|Q60049|NOX_THET8 178 PALVALGY 185
+                          7******8 PP
+
+>> sp|Q92PC8|BLUB_RHIME  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.6   0.0     4e-35   4.2e-35       1     166 [.      27     193 ..      27     194 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 113.6 bits;  conditional E-value: 4e-35
+                           HHH--B--.-B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHH CS
+        Nitroreductase   1 irqRrSiR.kfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalr 88 
+                           i++Rr +R +f +ep+++e +++ll aa++aPs g +qpw+f++v+++e+rek+++a+  +++e+ +  +  + ++   ++ l+ + +r
+  sp|Q92PC8|BLUB_RHIME  27 IETRRDVRdEFLPEPLSEELIARLLGAAHQAPSVGFMQPWNFVLVRQDETREKVWQAFQRANDEAAEMFSGERQAK---YRSLKLEGIR 112
+                           789*************************************************************999999888776...9********* PP
+
+                           HSSEEEEE..---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE CS
+        Nitroreductase  89 gapvlivi..taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavG 166
+                           +ap+ i++  +++       +    ++ ++ ++ +a+qnl+LaA+++G+g+ w++ f+e++++ +lg+p+  ++v+++++G
+  sp|Q92PC8|BLUB_RHIME 113 KAPLSICVtcDRTRGGAVVLGRTHNPQMDLYSTVCAVQNLWLAARAEGVGVGWVSIFHESEIKAILGIPDhVEIVAWLCLG 193
+                           ********999999999999999**********************************************999*******99 PP
+
+>> tr|Q7MX99|Q7MX99_PORGI  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.5   0.1   4.2e-19   4.4e-19       2      55 ..      16      69 ..      15      72 .. 0.96
+   2 !   50.1   0.0   1.3e-15   1.4e-15      83     167 .]      72     154 ..      69     154 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 61.5 bits;  conditional E-value: 4.2e-19
+                            HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHH CS
+          Nitroreductase  2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklae 55
+                            r+RrS+Rkf d pv++e+l+++lea+r aPsa+n qpw+f+vv+ ee r++la+
+  tr|Q7MX99|Q7MX99_PORGI 16 RTRRSVRKFIDRPVEEEKLMAILEAGRIAPSAHNYQPWHFLVVREEEGRKRLAP 69
+                            78*****************************************99******997 PP
+
+  == domain 2  score: 50.1 bits;  conditional E-value: 1.3e-15
+                             HHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  83 rqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavGy 167
+                             +q+++ gap +i+      + +r ++++a +   +d++ia+++++L A+slGlg+ w+ +fd+a + +++++p+   +v i+a+Gy
+  tr|Q7MX99|Q7MX99_PORGI  72 QQPWFPGAPIYIIT---LGDHQRAWKRGAGDSVDIDTSIAMTYMMLEAHSLGLGCTWVCAFDQALCSEIFDIPShMTPVSILALGY 154
+                             7999**********...8888999999999999****************************************999999******9 PP
+
+>> tr|Q81HL8|Q81HL8_BACCR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.7   0.0   1.5e-34   1.6e-34       1     167 []      11     164 ..      11     164 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 111.7 bits;  conditional E-value: 1.5e-34
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             i++RrS+R+f+d+ v+k+ l ell+ a +aP++++++pw++ ++  +e r+kl +a+l++++eee+a++           ++ +d++
+  tr|Q81HL8|Q81HL8_BACCR  11 IKERRSVRTFTDKAVEKDLLIELLNDATWAPNHKHREPWNCKLY-IGEGRKKLVDAVLNSFTEEERAKRG----------KILSDRF 86 
+                             89******************************************.99*********************84..........6678899 PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivavGy 167
+                                p+ iv+     ++++++ + +++e+++++++++qn++L A+++Glg++w +g ++++  + + +gl++ +r+v+i+++Gy
+  tr|Q81HL8|Q81HL8_BACCR  87 LSTPAQIVV-----YMNEDPRQIQRDEDYAATCAFMQNFQLLAWERGLGCVWKSGGLNYNplFIEGIGLTRgQRIVGILHIGY 164
+                             *********.....9******************************************9999*********99**********9 PP
+
+>> tr|Q5LDN3|Q5LDN3_BACFN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.6   0.0   1.6e-34   1.7e-34       1     167 []      10     168 ..      10     168 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 111.6 bits;  conditional E-value: 1.6e-34
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             i++RrS+R++d + +p+++l+++lea+++aPs+++ + w+f++v++  ++e+l+e++++++++++ ++   + +        +    
+  tr|Q5LDN3|Q5LDN3_BACFN  10 IKARRSVRAYDRKQIPADDLNAILEAGAYAPSGMHYETWHFTAVCNTVKLEELNERIKGAFAKSDDKHLRERGH------SETYCCY 90 
+                             799*****************************************999999*****************9988876......5899999 PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG.......GGHHHHHHT-S..SEEEEEEEEE CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd.......eaavakllglpk.erlvlivavG 166
+                             ++ap+l+++          ++e ++++a +d+++a++n+ LaAtslG++scwi+++         +a  + lg+p+ +++ ++va+G
+  tr|Q5LDN3|Q5LDN3_BACFN  91 YHAPTLVIV----------SNEPKQWWAGMDCACAIENMFLAATSLGIASCWINQLGttcddpeVRAYLTSLGVPEnHKVYGCVALG 167
+                             *********..........*************************************9988766444488999***99********** PP
+
+                             - CS
+          Nitroreductase 167 y 167
+                             y
+  tr|Q5LDN3|Q5LDN3_BACFN 168 Y 168
+                             9 PP
+
+>> sp|P9WP79|FBIB_MYCTU  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.9   0.0   1.9e-32     2e-32       4     167 .]     260     428 ..     259     428 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 104.9 bits;  conditional E-value: 1.9e-32
+                           --B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSSE CS
+        Nitroreductase   4 RrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgapv 92 
+                           RrS+R+f+++pvp + +e+ ++ a +aP  ++++p+rf++++++++r++l++++++++++  + + l a++   +++  r ++l++ap 
+  sp|P9WP79|FBIB_MYCTU 260 RRSVRRFSTDPVPGDLVEAAVAEALTAPAPHHTRPTRFVWLQTPAIRARLLDRMKDKWRSDLTSDGLPADAI--ERRVARGQILYDAPE 346
+                           9*****************************************************************999987..89************* PP
+
+                           EEEE....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE- CS
+        Nitroreductase  93 livi....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglp.kerlvlivavGy 167
+                           +++     ++ +s+  + +++++     +++g+a+q+ll+a++ +Glgscwig + +aa  v++ l+lp ++++++++a+Gy
+  sp|P9WP79|FBIB_MYCTU 347 VVIPmlvpDGAHSYPDAARTDAEHTMFTVAVGAAVQALLVALAVRGLGSCWIGSTIFAAdlVRDELDLPvDWEPLGAIAIGY 428
+                           ********************************************************9999*********66**********9 PP
+
+>> sp|P9WP79|FBIB_MYCTU  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.9   0.0   1.9e-32     2e-32       4     167 .]     260     428 ..     259     428 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 104.9 bits;  conditional E-value: 1.9e-32
+                           --B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSSE CS
+        Nitroreductase   4 RrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgapv 92 
+                           RrS+R+f+++pvp + +e+ ++ a +aP  ++++p+rf++++++++r++l++++++++++  + + l a++   +++  r ++l++ap 
+  sp|P9WP79|FBIB_MYCTU 260 RRSVRRFSTDPVPGDLVEAAVAEALTAPAPHHTRPTRFVWLQTPAIRARLLDRMKDKWRSDLTSDGLPADAI--ERRVARGQILYDAPE 346
+                           9*****************************************************************999987..89************* PP
+
+                           EEEE....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE- CS
+        Nitroreductase  93 livi....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglp.kerlvlivavGy 167
+                           +++     ++ +s+  + +++++     +++g+a+q+ll+a++ +Glgscwig + +aa  v++ l+lp ++++++++a+Gy
+  sp|P9WP79|FBIB_MYCTU 347 VVIPmlvpDGAHSYPDAARTDAEHTMFTVAVGAAVQALLVALAVRGLGSCWIGSTIFAAdlVRDELDLPvDWEPLGAIAIGY 428
+                           ********************************************************9999*********66**********9 PP
+
+>> tr|C9YJL7|Release  2021_03/2021_03|02-Jun-2021
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   0.0   6.8e-17   7.1e-17       1      50 [.      11      60 ..      11      66 .. 0.91
+   2 !   48.5   0.0   4.2e-15   4.4e-15      81     167 .]      69     156 ..      62     156 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 6.8e-17
+                       HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCH CS
+     Nitroreductase  1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelr 50
+                       +++RrSiRk++d  v+ke+l+++l+aa  aPs+++l+ w+f+vv+++e++
+  tr|C9YJL7|Release 11 LKKRRSIRKYKDVEVEKEKLDKILKAALLAPSSKGLRTWEFIVVDDKEKL 60
+                       589*****************************************777765 PP
+
+  == domain 2  score: 48.5 bits;  conditional E-value: 4.2e-15
+                        HHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG.......GGH...HHHHHT-S..SEEEE CS
+     Nitroreductase  81 llrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd.......eaa...vakllglpk.erlvl 161
+                        ++   +l++ap+ ivi          a+++++++ + da+iaa +++L+A++lGlgscwi+  +       e a   +++ l +p+ + + +
+  tr|C9YJL7|Release  69 KGGGFFLKNAPLAIVI---------IADKEKNDVWIEDASIAASYIQLQAHELGLGSCWIQVRNrmyddniE-AdkyIREELKVPSkYSVEC 150
+                        667789**********.........***************************************88776652.2579********88***** PP
+
+                        EEEEE- CS
+     Nitroreductase 162 ivavGy 167
+                        i+++Gy
+  tr|C9YJL7|Release 151 IISIGY 156
+                        *****9 PP
+
+>> tr|B1YG32|B1YG32_EXIS2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.4   0.1   2.3e-31   2.4e-31       1     167 []      13     191 ..      13     191 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 101.4 bits;  conditional E-value: 2.3e-31
+                             HHH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHH.HHHHHHHTT-SS-GGGGGG........ CS
+          Nitroreductase   1 irqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaal.eqlleeeaaaellaekeee........ 77 
+                             +++RrSiR++d++  ++kee+ ++le a  aPs+ n+qpwrf+v++see ++ la++a+ +q+++e   a+ +  ++ +        
+  tr|B1YG32|B1YG32_EXIS2  13 VKGRRSIRNYDTNVkISKEEMTQILEEATLAPSSVNMQPWRFLVIDSEEGKATLAPLAKfNQVQVETSSAVIAVFGDMKaidqleni 99 
+                             689******************************************99****999997752677777777777776665555544444 PP
+
+                             ....HHHHHHHHHHHHSSEEEEE........---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHH CS
+          Nitroreductase  78 ....nskllrqdalrgapvlivi........taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakll 152
+                                                 ++          a + ++e  ++++  +  ++d+g++ ++l+L+A+++G+++ +igg +++++a+++
+  tr|B1YG32|B1YG32_EXIS2 100 ydtaV------------EKGLMPqevrdrqvPAIQGMYENVPASALKDSILIDSGLVSMQLMLVARAHGYDTNPIGGYEKDQIAEAF 174
+                             33321............22222244465565777799************************************************** PP
+
+                             T-S...SEEEEEEEEE- CS
+          Nitroreductase 153 glp.k.erlvlivavGy 167
+                             g++ + + +v+++++G+
+  tr|B1YG32|B1YG32_EXIS2 175 GMEkDrYVPVMLLSIGK 191
+                             ***5589999*****96 PP
+
+>> tr|Q97IT9|Q97IT9_CLOAB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.6   0.1   5.5e-21   5.7e-21       1      76 [.       4      79 ..       4      90 .. 0.88
+   2 !   35.7   0.1   3.6e-11   3.8e-11      85     167 .]      64     145 ..      60     145 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 67.6 bits;  conditional E-value: 5.5e-21
+                            HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGG CS
+          Nitroreductase  1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekee 76
+                            i +RrSiR+++ ++v+ke++e+ll+aa++aPsagn qpw+f+v++++e ++kl++ ++ ++  + a+++ +  ++e
+  tr|Q97IT9|Q97IT9_CLOAB  4 INNRRSIRNYKGKKVEKEKIEKLLRAAMQAPSAGNQQPWEFIVLEDRENIDKLSNFSKYANSLKTAPLAIVLLADE 79
+                            679*****************************************99********9999999999988888887764 PP
+
+  == domain 2  score: 35.7 bits;  conditional E-value: 3.6e-11
+                             HHHHHSSEEEEE---TTS---HHHHHHH.HHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH....HHHHHT-S..SEEEEEEEE CS
+          Nitroreductase  85 dalrgapvlivitaeaseqerkaeeray.reaaldagiaaqnllLaAtslGlgscwiggfdeaa....vakllglpk.erlvlivav 165
+                               l++ap+ iv+       ++++e+ +  +   +d+++aa+n+lL A+ l lg++w+g+ ++++    ++++++l++  ++ ++++v
+  tr|Q97IT9|Q97IT9_CLOAB  64 NSLKTAPLAIVL-------LADEEKMKIsEMWEQDMAAAAENILLEAAYLDLGAVWLGAQPIEErvknLKEMFNLKSnIKPFCVISV 143
+                             568899999999.......33333333303334799*************************8888999********99********* PP
+
+                             E- CS
+          Nitroreductase 166 Gy 167
+                             Gy
+  tr|Q97IT9|Q97IT9_CLOAB 144 GY 145
+                             *9 PP
+
+>> sp|A0R6D0|NFNB_MYCS2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.1   1.0   5.5e-31   5.7e-31       1     167 []      22     209 ..      22     209 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 100.1 bits;  conditional E-value: 5.5e-31
+                           HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG............ CS
+        Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee............ 77 
+                           i++Rr +R+f+++ vp+e++++++e a +aPs +n+qpw++ vv s+++r++laea+  + +ee+      +++e              
+  sp|A0R6D0|NFNB_MYCS2  22 IKGRRAVRAFRPDEVPEETMRAVFELAGHAPSNSNTQPWHVEVV-SGAARDRLAEALVTAHAEERVTVD-FPYREGLfqgvlqerradf 108
+                           799*****************************************.9*********99887776666555.5555555899999****** PP
+
+                           ..................HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH. CS
+        Nitroreductase  78 ..................nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa. 147
+                                             +  +  + +++gap++ ++          a+   +++ a d+gi+aq+l+La+t++G++sc++  + ++a 
+  sp|A0R6D0|NFNB_MYCS2 109 gsrlyaalgiardqtdllQGYNTESLRFYGAPHVAML---------FAPNNTEARIAGDMGIYAQTLMLAMTAHGIASCPQALLSFYAd 188
+                           ****************9999999999***********.........***************************************8888 PP
+
+                           .HHHHHT-S.SEEEEEEEEE- CS
+        Nitroreductase 148 .vakllglpkerlvlivavGy 167
+                            v+  lg+++ +l++ +++Gy
+  sp|A0R6D0|NFNB_MYCS2 189 tVRAELGVENRKLLMGISFGY 209
+                           ********************9 PP
+
+>> sp|A0R6D0|NFNB_MYCS2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.1   1.0   5.5e-31   5.7e-31       1     167 []      22     209 ..      22     209 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 100.1 bits;  conditional E-value: 5.5e-31
+                           HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG............ CS
+        Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee............ 77 
+                           i++Rr +R+f+++ vp+e++++++e a +aPs +n+qpw++ vv s+++r++laea+  + +ee+      +++e              
+  sp|A0R6D0|NFNB_MYCS2  22 IKGRRAVRAFRPDEVPEETMRAVFELAGHAPSNSNTQPWHVEVV-SGAARDRLAEALVTAHAEERVTVD-FPYREGLfqgvlqerradf 108
+                           799*****************************************.9*********99887776666555.5555555899999****** PP
+
+                           ..................HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH. CS
+        Nitroreductase  78 ..................nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa. 147
+                                             +  +  + +++gap++ ++          a+   +++ a d+gi+aq+l+La+t++G++sc++  + ++a 
+  sp|A0R6D0|NFNB_MYCS2 109 gsrlyaalgiardqtdllQGYNTESLRFYGAPHVAML---------FAPNNTEARIAGDMGIYAQTLMLAMTAHGIASCPQALLSFYAd 188
+                           ****************9999999999***********.........***************************************8888 PP
+
+                           .HHHHHT-S.SEEEEEEEEE- CS
+        Nitroreductase 148 .vakllglpkerlvlivavGy 167
+                            v+  lg+++ +l++ +++Gy
+  sp|A0R6D0|NFNB_MYCS2 189 tVRAELGVENRKLLMGISFGY 209
+                           ********************9 PP
+
+>> tr|Q8DVW4|Q8DVW4_STRMU  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.1   0.0   5.8e-31   6.1e-31       3     167 .]      11     184 ..       9     184 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 100.1 bits;  conditional E-value: 5.8e-31
+                             H--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHH CS
+          Nitroreductase   3 qRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalr 88 
+                             +R S+R+fd++  +p + ++ +le a++aPs+ n+qpwr++vv+++++ e+l+++a+ q +++ a a++l  ++e +++l + + ++
+  tr|Q8DVW4|Q8DVW4_STRMU  11 GRVSVRQFDPDAvLPNDLIKDMLEHASYAPSGNNFQPWRVVVVKNKNKQEDLKKLAALQPQVATASAVFLLFGDENAYDLTWWQEFH 97 
+                             89***********************************************************************97655555555555 PP
+
+                             HSSEEEEE.......---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  89 gapvlivi.......taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavGy 167
+                               + +i         ++  ++   ++e+++ +   ld+g++a+nl+ + +  G++s+++ g+d++a+++ l++p+ ++++l+++vG+
+  tr|Q8DVW4|Q8DVW4_STRMU  98 VQKGIITKdeaaaraERIRQYFDLHPEDKETQGLRLDVGLFAMNLMQVVRVYGYDSVPMRGVDFDAIKTYLDMPNeWEPILMLPVGK 184
+                             444444448888888999999999**************************************************88**********7 PP
+
+>> tr|A0A0H2UP38|A0A0H2UP38_STRPN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.0   0.0   6.1e-31   6.3e-31       2     167 .]       8     181 ..       8     181 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 100.0 bits;  conditional E-value: 6.1e-31
+                                     HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCH.......HHHHHHHHHHHHHHHTT-SS-GG CS
+                  Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelr.......eklaeaaleqlleeeaaaellae 73 
+                                     ++R+ +++f+d+ v++ ++++ +e+a  aPsa+n+qpw+f+vv+ ++++        ++++ +   ++ +   +++la+
+  tr|A0A0H2UP38|A0A0H2UP38_STRPN   8 KKRHATKHFTDKLVDPKDVRTAIEIATLAPSAHNSQPWKFVVVREKNAElaklaygSNFEQVSSAPVTIALFTDTDLAK 86 
+                                     68*****************************************655555676666656666666666666666666666 PP
+
+                                     GGGGHHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHH CS
+                  Nitroreductase  74 keeenskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakll 152
+                                     ++ ++++ + + ++ + ++  ++   ++e  r++e++  ++ al+ag++a+nl+La+t++G+gs +i gfd+++v+++l
+  tr|A0A0H2UP38|A0A0H2UP38_STRPN  87 RARKIARVGGANNFSEEQLQYFMKNLPAEFARYSEQQVSDYLALNAGLVAMNLVLALTDQGIGSNIILGFDKSKVNEVL 165
+                                     666699999999***********9******************************************************* PP
+
+                                     T-S..SEEEEEEEEE- CS
+                  Nitroreductase 153 glpk.erlvlivavGy 167
+                                     ++++  r+ l+++vGy
+  tr|A0A0H2UP38|A0A0H2UP38_STRPN 166 EIEDrFRPELLITVGY 181
+                                     ***99**********9 PP
+
+>> sp|P15888|NFSB_SALTY  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.4   0.1   9.5e-31   9.9e-31       2     167 .]       8     193 ..       7     193 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 99.4 bits;  conditional E-value: 9.5e-31
+                           HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrg 89 
+                            qR+S+++fd+++ +++ee +++    +++Ps++n+qpw+f+v+s+ee ++++a++a++  + +e+++ ++++       ++++ a+++
+  sp|P15888|NFSB_SALTY   8 LQRYSTKAFDPSKkLTAEEADKIKTLLQYSPSSTNSQPWHFIVASTEEGKARVAKSAAGNYTFNERKMLDASHVV----VFCAKTAMDD 92 
+                           69***********************************************************************98....8********* PP
+
+                           SSEEEEE.....................---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S.. CS
+        Nitroreductase  90 apvlivi.....................taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp.k 156
+                           a +  v+                     ++++++++r + +++ +++a+++++ + n+lL  +++Gl++++i+gfd++ ++  +gl+ k
+  sp|P15888|NFSB_SALTY  93 AWLERVVdqedadgrfatpeakaandkgRRFFADMHRVSLKDDHQWMAKQVYLNVGNFLLGVAAMGLDAVPIEGFDAEVLDAEFGLKeK 181
+                           ***************************************************************************************65 PP
+
+                           .SEEEEEEEEE- CS
+        Nitroreductase 157 .erlvlivavGy 167
+                            +  +++v+vG+
+  sp|P15888|NFSB_SALTY 182 gYTSLVVVPVGH 193
+                           89999*****97 PP
+
+>> tr|Q182R2|Q182R2_CLOD6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.0   0.1   2.5e-30   2.6e-30       2     165 ..       8     195 ..       7     197 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 98.0 bits;  conditional E-value: 2.5e-30
+                             HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG...HHHHHHHH CS
+          Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee...nskllrqd 85 
+                              +R S+Rkf+++ v++e++ ++++aa  aPs++n+q+w+f+v+++++l+ek+a+ + ++++e+  ++ ++++ +     +  ++   
+  tr|Q182R2|Q182R2_CLOD6   8 FKRQSVRKFKNQDVSDEDILKMIKAAGAAPSGKNIQNWHFVVIKRRDLMEKIADVITKKQQEILVEMDKVSVDKANrfrKFVKNFTL 94 
+                             68*****************************************************************99999766698888888888 PP
+
+                             HHHHSSEEEEE.............---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S.. CS
+          Nitroreductase  86 alrgapvlivi.............taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglp.. 155
+                             +  +apvl+++             +   + +e+  +   ++  +++ g+a++n+ L+A +lG+gscw++  ++aa  ++ +l+ +  
+  tr|Q182R2|Q182R2_CLOD6  95 FYLKAPVLVLVftkvynpsgyyelELIDAPKETIDKLFIRNPGMQSLGAAIENFTLSAIELGYGSCWLTSQNYAAdeIEAVLEAEtg 181
+                             999*****************9998888888899999999999******************************998898888877755 PP
+
+                             .....SEEEEEEEE CS
+          Nitroreductase 156 ..k..erlvlivav 165
+                               k  + l +++a+
+  tr|Q182R2|Q182R2_CLOD6 182 feKgeYFLGAMLAL 195
+                             54332333355555 PP
+
+>> sp|P38489|NFSB_ECOLI  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.6   0.0   6.7e-30     7e-30       2     167 .]       8     193 ..       7     193 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 96.6 bits;  conditional E-value: 6.7e-30
+                           HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrg 89 
+                            +R+S+++fd+++ +++e+ e++    +++Ps++n+qpw+f+v+s+ee ++++a++a++    +e+++ ++++       ++++ a+++
+  sp|P38489|NFSB_ECOLI   8 LKRHSTKAFDASKkLTPEQAEQIKTLLQYSPSSTNSQPWHFIVASTEEGKARVAKSAAGNYVFNERKMLDASHVV----VFCAKTAMDD 92 
+                           58***********************************************************************98....8********* PP
+
+                           SSEEEEE.....................---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S.. CS
+        Nitroreductase  90 apvlivi.....................taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp.k 156
+                             + +v+                     ++++++++rk   ++++++a+++++ + n+lL  ++lGl++++i+gfd+a ++  +gl+ k
+  sp|P38489|NFSB_ECOLI  93 VWLKLVVdqedadgrfatpeakaandkgRKFFADMHRKDLHDDAEWMAKQVYLNVGNFLLGVAALGLDAVPIEGFDAAILDAEFGLKeK 181
+                           ***************************************************************************************65 PP
+
+                           .SEEEEEEEEE- CS
+        Nitroreductase 157 .erlvlivavGy 167
+                            +  +++v+vG+
+  sp|P38489|NFSB_ECOLI 182 gYTSLVVVPVGH 193
+                           89999*****97 PP
+
+>> sp|P38489|NFSB_ECOLI  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.6   0.0   6.7e-30     7e-30       2     167 .]       8     193 ..       7     193 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 96.6 bits;  conditional E-value: 6.7e-30
+                           HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrg 89 
+                            +R+S+++fd+++ +++e+ e++    +++Ps++n+qpw+f+v+s+ee ++++a++a++    +e+++ ++++       ++++ a+++
+  sp|P38489|NFSB_ECOLI   8 LKRHSTKAFDASKkLTPEQAEQIKTLLQYSPSSTNSQPWHFIVASTEEGKARVAKSAAGNYVFNERKMLDASHVV----VFCAKTAMDD 92 
+                           58***********************************************************************98....8********* PP
+
+                           SSEEEEE.....................---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S.. CS
+        Nitroreductase  90 apvlivi.....................taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp.k 156
+                             + +v+                     ++++++++rk   ++++++a+++++ + n+lL  ++lGl++++i+gfd+a ++  +gl+ k
+  sp|P38489|NFSB_ECOLI  93 VWLKLVVdqedadgrfatpeakaandkgRKFFADMHRKDLHDDAEWMAKQVYLNVGNFLLGVAALGLDAVPIEGFDAAILDAEFGLKeK 181
+                           ***************************************************************************************65 PP
+
+                           .SEEEEEEEEE- CS
+        Nitroreductase 157 .erlvlivavGy 167
+                            +  +++v+vG+
+  sp|P38489|NFSB_ECOLI 182 gYTSLVVVPVGH 193
+                           89999*****97 PP
+
+>> sp|P38489|NFSB_ECOLI  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.6   0.0   6.7e-30     7e-30       2     167 .]       8     193 ..       7     193 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 96.6 bits;  conditional E-value: 6.7e-30
+                           HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrg 89 
+                            +R+S+++fd+++ +++e+ e++    +++Ps++n+qpw+f+v+s+ee ++++a++a++    +e+++ ++++       ++++ a+++
+  sp|P38489|NFSB_ECOLI   8 LKRHSTKAFDASKkLTPEQAEQIKTLLQYSPSSTNSQPWHFIVASTEEGKARVAKSAAGNYVFNERKMLDASHVV----VFCAKTAMDD 92 
+                           58***********************************************************************98....8********* PP
+
+                           SSEEEEE.....................---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S.. CS
+        Nitroreductase  90 apvlivi.....................taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp.k 156
+                             + +v+                     ++++++++rk   ++++++a+++++ + n+lL  ++lGl++++i+gfd+a ++  +gl+ k
+  sp|P38489|NFSB_ECOLI  93 VWLKLVVdqedadgrfatpeakaandkgRKFFADMHRKDLHDDAEWMAKQVYLNVGNFLLGVAALGLDAVPIEGFDAAILDAEFGLKeK 181
+                           ***************************************************************************************65 PP
+
+                           .SEEEEEEEEE- CS
+        Nitroreductase 157 .erlvlivavGy 167
+                            +  +++v+vG+
+  sp|P38489|NFSB_ECOLI 182 gYTSLVVVPVGH 193
+                           89999*****97 PP
+
+>> tr|Q9WYL7|Q9WYL7_THEMA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.3   0.4     2e-26   2.1e-26       1     167 []     147     289 ..     147     289 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 85.3 bits;  conditional E-value: 2e-26
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             i++Rr  R++++++vp+eele l++aa+ aPs +n qpwrf+vv+    +e+l+++++e+l+  +                   +++
+  tr|Q9WYL7|Q9WYL7_THEMA 147 IEWRRARRALKKDRVPREELELLIKAAHLAPSCMNNQPWRFVVVD----EEELLKKIHEALPGGN-------------------YWM 210
+                             789*****************************************4....4788888888887665...................556 PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavGy 167
+                             ++ap+li++     ++ + a ++ +++ + d+g+a+ nll++At +Gl + ++ g d  +v+++l +p+ + l+ ++avGy
+  tr|Q9WYL7|Q9WYL7_THEMA 211 KNAPALIAV--HSKKDFDCALPDNRDYFLFDTGLAVGNLLVQATQMGLVAHPVAGYDPVKVKEILKIPEdHVLITLIAVGY 289
+                             799999999..55555556677889999****************************************989999******9 PP
+
+>> sp|P96692|MHQN_BACSU  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.1   0.0   8.1e-29   8.5e-29       2     167 .]       9     184 ..       8     184 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 93.1 bits;  conditional E-value: 8.1e-29
+                           HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrg 89 
+                            +RrS  +f +   ++ke+l+e++e  + aPsa+nlq+++++ v +++++ekl++aa +q ++    a+ll  ++    k+ +q+a++ 
+  sp|P96692|MHQN_BACSU   9 NERRSASNFLSGHpITKEDLNEMFELVALAPSAFNLQHTKYVTVLDQDVKEKLKQAANGQYKVVSSSAVLLVLGD----KQAYQQAADI 93 
+                           58*****9988777*****************************989***************************99....4555555555 PP
+
+                           SSEEEEE............---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEE CS
+        Nitroreductase  90 apvlivi............taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivav 165
+                              l v+             ++ s +e ++e+ +++ea+ +a++ a+ ++L+A++ G+++c++ gfd++av+++l++++  ++v+++++
+  sp|P96692|MHQN_BACSU  94 YEGLKVLgilnkqeydhmvQDTVSFYENRGEQFKRDEAIRNASLSAMMFMLSAKEKGWDTCPMIGFDAEAVKRILNIDDqFEVVMMITI 182
+                           5555555555888888888***********************************************************99********* PP
+
+                           E- CS
+        Nitroreductase 166 Gy 167
+                           G+
+  sp|P96692|MHQN_BACSU 183 GK 184
+                           *6 PP
+
+>> tr|A0A0H2VHN8|A0A0H2VHN8_STAES  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.2   0.1   1.5e-28   1.6e-28       3     167 .]      16     192 ..      14     192 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 92.2 bits;  conditional E-value: 1.5e-28
+                                     H--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG... CS
+                  Nitroreductase   3 qRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee... 77 
+                                     +R+S++ fd +  +p+ee++e++  a  aPs+ n+qpwr+ vv+s+e +ek++e++    ++  +  ++l    +    
+  tr|A0A0H2VHN8|A0A0H2VHN8_STAES  16 SRKSVKVFDENYkIPREEMDEIITKATKAPSSVNMQPWRIAVVQSDEMKEKVKESFGFNSRQLTTSSAMLIIFGDLqny 94 
+                                     8******************************************766666555555444444444443333333333555 PP
+
+                                     ...........HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGG CS
+                  Nitroreductase  78 ...........nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfde 145
+                                                + +l++ d+ ++   +i+      +++  + e++ +   +d++++a++l+L A+++G+++ +iggfd+
+  tr|A0A0H2VHN8|A0A0H2VHN8_STAES  95 ekaeqiygdavEQQLMTEDIKAQLLDWILP-----YYKNLSREGMKDIVNIDSSLMAMQLMLTAKAHGYDTNPIGGFDK 168
+                                     555666666667777777777777777777.....******************************************** PP
+
+                                     GHHHHHHT-S...SEEEEEEEEE- CS
+                  Nitroreductase 146 aavakllglp.k.erlvlivavGy 167
+                                     +++a+++g + + + +vl++a+G+
+  tr|A0A0H2VHN8|A0A0H2VHN8_STAES 169 ENIADIIGYDsDrYVPVLAIAIGK 192
+                                     **********768999******96 PP
+
+>> tr|Q87FS7|Q87FS7_VIBPA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.9   2.1   1.6e-27   1.7e-27       1     167 []       8     159 ..       8     159 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 88.9 bits;  conditional E-value: 1.6e-27
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             i + rSiRkf+++p++ke+le++l+a+  a s++ lq + ++ v++ e+r +la+ a +q+ +e aa++l++  + + ++ ++ d+ 
+  tr|Q87FS7|Q87FS7_VIBPA   8 ILGHRSIRKFTSQPIDKEQLETILQAGLAASSSSMLQVVSIVRVTDIEKRSQLAKFAGNQAYVESAAEFLVFCIDYQRHASINPDVQ 94 
+                             5689*********************************************************************99888888888888 PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivavGy 167
+                             ++   l++i                   a+d+gi+aqn lLaA+s+Glg ++igg+ + a  v++llglp+   ++  +++G+
+  tr|Q87FS7|Q87FS7_VIBPA  95 ADFTELMLI------------------GAVDSGIMAQNCLLAAESMGLGGVYIGGLRNNAqqVDELLGLPQnTAILFGMCLGH 159
+                             888888888..................******************************77778********989999****997 PP
+
+>> tr|A0PZS2|A0PZS2_CLONN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.0   0.1   2.4e-26   2.5e-26       1     166 [.       7     151 ..       7     152 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 85.0 bits;  conditional E-value: 2.4e-26
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             i++R+Si+kf+ + +++++l ++++ a+raPs++n  p +f+vv+s    +kl+  ++++++++  aa+               +a+
+  tr|A0PZS2|A0PZS2_CLONN   7 IKKRKSIKKFEQTAIDRDKLLKIIDMAMRAPSWKNKTPYKFIVVES----DKLKLDIANAIENKTSAAS---------------EAV 74 
+                             89******************************************54....5555555555555554443...............566 PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavG 166
+                              ++p++iv+    ++ e+ ++ ++ +  ++d++ia++ ++L At++G+g+cwi +f+e +++++l +p+  r+v++ ++G
+  tr|A0PZS2|A0PZS2_CLONN  75 LNSPMTIVA---VANPEESGDVSGKEIYLIDTAIAMEHIVLGATDEGYGTCWIAAFNENKIKEALKIPDnLRVVALTPLG 151
+                             799******...77788888888899999***************************************99*****99998 PP
+
+>> tr|Q8ABC9|Q8ABC9_BACTN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.2   0.1     3e-24   3.1e-24       2     167 .]      41     178 ..      40     178 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 78.2 bits;  conditional E-value: 3e-24
+                             HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHH CS
+          Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalr 88 
+                              +R+S+R++ ++ v+ke+++ +l+a++ aPs++ ++pw+f+vvs          a l++++++ + a                ++l 
+  tr|Q8ABC9|Q8ABC9_BACTN  41 FERKSVRTYLNKGVEKEKIDLMLRAGMSAPSGKDVRPWEFVVVS--------DRAKLDSMAAALPYA----------------KMLT 103
+                             68*****************************************6........233344444444444................4555 PP
+
+                             HSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH....HHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  89 gapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa....vakllglpk.erlvlivavGy 167
+                             +a   i++          +++++ ++ +ld+++aaqn+lLaA+s+Glg++w+ + ++++    v+k  +lp+   +++++++Gy
+  tr|Q8ABC9|Q8ABC9_BACTN 104 QARNAIIV---------CGDSARSFYWYLDCSAAAQNILLAAESMGLGAVWTAAYPYEDrmevVRKYTHLPEnILPLCVIPFGY 178
+                             66555555.........599************************************9999999********555556******9 PP
+
+>> sp|Q01234|NFSB_ENTCL  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.1   0.2   6.6e-28   6.9e-28       2     167 .]       8     193 ..       7     193 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 90.1 bits;  conditional E-value: 6.6e-28
+                           HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrg 89 
+                            +R+S+++fd+++ +++ee e++    +++Ps++n+qpw+f+v+s+ee ++++a++a+++   +e+++ ++++       ++++ a+++
+  sp|Q01234|NFSB_ENTCL   8 LKRHSTKAFDASKkLTAEEAEKIKTLLQYSPSSTNSQPWHFIVASTEEGKARVAKSAAGTYVFNERKMLDASHVV----VFCAKTAMDD 92 
+                           58***********************************************************************98....7999999999 PP
+
+                           SSEEEEE.....................---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S.. CS
+        Nitroreductase  90 apvlivi.....................taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk. 156
+                           a +  v+                     +  +++++r   +++ +++a+++++ + n+lL   ++Gl++++i+gfd+a +++ +gl++ 
+  sp|Q01234|NFSB_ENTCL  93 AWLERVVdqeeadgrfntpeakaanhkgRTYFADMHRVDLKDDDQWMAKQVYLNVGNFLLGVGAMGLDAVPIEGFDAAILDEEFGLKEk 181
+                           99999999999999999999999999988888999****************************************************64 PP
+
+                           .SEEEEEEEEE- CS
+        Nitroreductase 157 .erlvlivavGy 167
+                               +++v+vG+
+  sp|Q01234|NFSB_ENTCL 182 gFTSLVVVPVGH 193
+                           556669999997 PP
+
+>> tr|B8FRE0|B8FRE0_DESHD  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.3   0.0   5.7e-28     6e-28       1     167 []       9     169 ..       9     169 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 90.3 bits;  conditional E-value: 5.7e-28
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             i++R+S+R f++e +++e l+++ eaa +aPs++n+q wr++vv+++el+   +e  +e l+     + + ++ +     +     +
+  tr|B8FRE0|B8FRE0_DESHD   9 IAERYSCRDFKNEMPSDELLQAIAEAAIQAPSGMNRQAWRVIVVKNKELM---QEMEAEGLAYLAGMEDQSSYNR---IMERGGRLF 89 
+                             799*****************************************888777...5555666666666666555555...6799***** PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG........GGHHHHHHT-S..SEEEEEEEE CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd........eaavakllglpk.erlvlivav 165
+                             +gap++iv+           ++ +y  a++d+gi++q++ LaAtslG++ +++g++         ++++ k lg p+ +   + v +
+  tr|B8FRE0|B8FRE0_DESHD  90 YGAPCMIVV---------PIDPTQYGPALVDCGILCQTIALAATSLGIANIMCGYTGlafasglrAEEFSKRLGFPEgYAFGCSVLL 167
+                             *********.........99*****************************9999999988777664444********87877788888 PP
+
+                             E- CS
+          Nitroreductase 166 Gy 167
+                             G+
+  tr|B8FRE0|B8FRE0_DESHD 168 GH 169
+                             86 PP
+
+>> tr|Q180K0|Q180K0_CLOD6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   0.0   8.6e-17     9e-17       2      57 ..       8      63 ..       7      65 .. 0.96
+   2 !   37.3   0.0   1.1e-11   1.2e-11      81     167 .]      59     145 ..      56     145 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 8.6e-17
+                            HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHH CS
+          Nitroreductase  2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaa 57
+                            ++R+S+R+++d +v+ke+le++l+ ar aP++gn+qp r++v++ +e + kl++aa
+  tr|Q180K0|Q180K0_CLOD6  8 KKRYSCRNYQDRKVEKEKLEKVLDVARIAPTGGNRQPQRLIVIQEKEGINKLSKAA 63
+                            89*****************************************9999999999986 PP
+
+  == domain 2  score: 37.3 bits;  conditional E-value: 1.1e-11
+                             HHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE CS
+          Nitroreductase  81 llrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavG 166
+                             l +++++++ap+ i++ +++++ ++++  ++ + + +d++i+   ++L+At+lGl+s+w+ +f+ + +++ + lp+  +++ i+ +G
+  tr|Q180K0|Q180K0_CLOD6  59 LSKAANIYDAPLAILVCGDKDKVWTRPF-DGKQLTDIDTSIVTDHMMLQATELGLASVWVCYFNPDIIREEFSLPDnLEPINILLMG 144
+                             6788999*********666666666544.56678899**************************************999999999999 PP
+
+                             - CS
+          Nitroreductase 167 y 167
+                             y
+  tr|Q180K0|Q180K0_CLOD6 145 Y 145
+                             8 PP
+
+>> tr|Q81EW9|Q81EW9_BACCR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.6   0.0   9.4e-28   9.8e-28       1     166 [.      12     179 ..      12     180 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 89.6 bits;  conditional E-value: 9.4e-28
+                             HHH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqda 86 
+                             i +RrSiRk +++  ++ke +ee+l++a +aP+++n+q+ r +v+  + + ek++++++e+l++  +a+++ a        +  + +
+  tr|Q81EW9|Q81EW9_BACCR  12 IVNRRSIRKVTKNDaITKERIEEVLKTALHAPTSFNMQSGRMVVLM-DGEHEKFWDIVKETLRARVPAENFEATV------ERLKGF 91 
+                             679******************************************4.455569************9999988874......688888 PP
+
+                             HHHSSEEEEE.....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEE CS
+          Nitroreductase  87 lrgapvlivi.....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivav 165
+                              +g ++++++     + + +e    ++++ ++++++  +++ +++++ + ++G+g+  ++++++ +  v++++++p  + lv+++++
+  tr|Q81EW9|Q81EW9_BACCR  92 HAGVGTVLFFedqatVEKMQENAPLYKDQFPFWSHQGNAMLQHTVWMLLSAEGIGASLQHYNPIVDaeVKETWNIPAeWSLVGQMPF 178
+                             88888888889**99999999******************************************77778********87********* PP
+
+                             E CS
+          Nitroreductase 166 G 166
+                             G
+  tr|Q81EW9|Q81EW9_BACCR 179 G 179
+                             9 PP
+
+>> tr|Q9A120|Q9A120_STRP1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.3   0.1   2.4e-27   2.6e-27       3     167 .]      15     199 ..      13     199 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 88.3 bits;  conditional E-value: 2.4e-27
+                             H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG............ CS
+          Nitroreductase   3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee............ 77 
+                              R  +R ++ e++++e+l+ +l+aa+ +Ps+ +l+ wrf+v++++ ++e++++ a++++ + e+a +++   +e+            
+  tr|Q9A120|Q9A120_STRP1  15 FRTAVRVYKEEKISDEDLALILDAAWLSPSSIGLEGWRFVVLDNKPIKEEIKPFAWGAQYQLETASHFILLIAEKharydspaikns 101
+                             6999*******************************************************9999999999998877899988887655 PP
+
+                             ............HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH....H CS
+          Nitroreductase  78 ............nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa....v 148
+                                         ns+l+  + + +           +++ ++++++ ++++a++++ia+ n+++ A+ lG+++c+i+gf++++    +
+  tr|Q9A120|Q9A120_STRP1 102 llrrgikegdglNSRLKLYESFQKE----------DMDMADNPRALFDWTAKQTYIALGNMMMTAALLGIDTCPIEGFHYDKvnhiL 178
+                             5555554444444444444444444..........444456**************************************99977774 PP
+
+                             HHHHT-S...SEEEEEEEEE- CS
+          Nitroreductase 149 akllglp..kerlvlivavGy 167
+                             ak+  ++  ke +  ++++Gy
+  tr|Q9A120|Q9A120_STRP1 179 AKHNVIDleKEGIASMLSLGY 199
+                             444444451599999999998 PP
+
+>> sp|P0DX42|CLAER_LACPN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.9   0.0   3.1e-27   3.3e-27       3     167 .]      19     196 ..      17     196 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 87.9 bits;  conditional E-value: 3.1e-27
+                            H--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG............ CS
+         Nitroreductase   3 qRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee............ 77 
+                            +R+S+R+fd++  + ++el+++++ a++aPsa+nlq+w+f+vv+++e+++k+++a+++ +      a+ +   + +            
+  sp|P0DX42|CLAER_LACPN  19 NRHSVRQFDPNVkIGRDELQKMIAEAATAPSACNLQSWHFVVVDTPEAKAKFKQAVMKFNYPQVDSASAIVFIAGDtqshyvyrdvwn 106
+                            7******************************************99****999999999887777777666665555678887777766 PP
+
+                            ...HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S...SEEE CS
+         Nitroreductase  78 ...nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp.k.erlv 160
+                               +  ++++++l++   +++       +e  +++   + a +d++ + ++llL+A+++G+++   +g+d++++  +lgl+ k + +v
+  sp|P0DX42|CLAER_LACPN 107 kvyEDGNITKERLDQILGTFLP-----LYENATPDFLKFDATIDCSVVGMQLLLVARAHGYDANAFSGIDFEKMIPTLGLDpKrYVPV 189
+                            6666666666666666666666.....999999************************************************6589999 PP
+
+                            EEEEEE- CS
+         Nitroreductase 161 livavGy 167
+                            + +a+G+
+  sp|P0DX42|CLAER_LACPN 190 MGIAIGK 196
+                            *****96 PP
+
+>> tr|U6C5W9|U6C5W9_LACPN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.9   0.0   3.1e-27   3.3e-27       3     167 .]      19     196 ..      17     196 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 87.9 bits;  conditional E-value: 3.1e-27
+                             H--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG........... CS
+          Nitroreductase   3 qRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee........... 77 
+                             +R+S+R+fd++  + ++el+++++ a++aPsa+nlq+w+f+vv+++e+++k+++a+++ +      a+ +   + +           
+  tr|U6C5W9|U6C5W9_LACPN  19 NRHSVRQFDPNVkIGRDELQKMIAEAATAPSACNLQSWHFVVVDTPEAKAKFKQAVMKFNYPQVDSASAIVFIAGDtqshyvyrdvw 105
+                             7******************************************99****99999999988777777766666555567888777776 PP
+
+                             ....HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S...SE CS
+          Nitroreductase  78 ....nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp.k.er 158
+                                 +  ++++++l++   +++       +e  +++   + a +d++ + ++llL+A+++G+++   +g+d++++  +lgl+ k + 
+  tr|U6C5W9|U6C5W9_LACPN 106 nkvyEDGNITKERLDQILGTFLP-----LYENATPDFLKFDATIDCSVVGMQLLLVARAHGYDANAFSGIDFEKMIPTLGLDpKrYV 187
+                             66666666666666666666666.....999999************************************************65899 PP
+
+                             EEEEEEEE- CS
+          Nitroreductase 159 lvlivavGy 167
+                             +v+ +a+G+
+  tr|U6C5W9|U6C5W9_LACPN 188 PVMGIAIGK 196
+                             99*****96 PP
+
+>> sp|P0ACY1|YDJA_ECOLI  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.4   0.1   2.2e-27   2.3e-27       3     166 ..       9     161 ..       7     162 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 88.4 bits;  conditional E-value: 2.2e-27
+                           H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSS CS
+        Nitroreductase   3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgap 91 
+                           +RrS  ++    ++ e+l+ +l+a++raP+++ +qpw+f+v+  +e re+++  + + + ++  +++ +          +++ a ++ap
+  sp|P0ACY1|YDJA_ECOLI   9 NRRSASRLAEPAPTGEQLQNILRAGMRAPDHKSMQPWHFFVI-EGEGRERFSAVLEQGAIAAGSDDKAID---------KARNAPFRAP 87 
+                           699999999888******************************.8*******9988888888888887555.........5679****** PP
+
+                           EEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE CS
+        Nitroreductase  92 vlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivavG 166
+                           ++i +    +++ + ++++ ++e+ ++ag+a++++++aA ++G+g +w +g + ++  v++++g  + +++v+++++G
+  sp|P0ACY1|YDJA_ECOLI  88 LIITV----VAKCEENHKVPRWEQEMSAGCAVMAMQMAAVAQGFGGIWRSGALTESpvVREAFGCREqDKIVGFLYLG 161
+                           *****....999999***************************************************99*******999 PP
+
+>> tr|Q314Q8|Q314Q8_OLEA2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.1   0.1   1.6e-16   1.7e-16       1      47 [.      11      57 ..      11      68 .. 0.92
+   2 !   36.5   1.2     2e-11   2.1e-11      81     166 ..      68     151 ..      58     152 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 53.1 bits;  conditional E-value: 1.6e-16
+                            HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-C CS
+          Nitroreductase  1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsse 47
+                            irqRrSiR+++de v++e ++ +lea+ +aPs+ n qp+rf+v++ +
+  tr|Q314Q8|Q314Q8_OLEA2 11 IRQRRSIRRYTDEAVSDEAVRLILEAGIWAPSGLNNQPCRFLVIRAD 57
+                            89******************************************654 PP
+
+  == domain 2  score: 36.5 bits;  conditional E-value: 2e-11
+                             HHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S.SEEE..EEE CS
+          Nitroreductase  81 llrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpkerlv..liv 163
+                             + +  ++rga+v+i++       +++++   ++ ++++ag+a+qn+lLaA++l lg++w+g + ++a  +  +l l++ rl   +++
+  tr|Q314Q8|Q314Q8_OLEA2  68 TRYGHIVRGAKVIILV------FLDREAMYNEVKDHQAAGAAVQNMLLAAHALQLGAVWLGEIINQAatLLPALALDPARLSfeAAI 148
+                             5677899*********......9999999999*****************************99977778999999987666555666 PP
+
+                             EEE CS
+          Nitroreductase 164 avG 166
+                             a G
+  tr|Q314Q8|Q314Q8_OLEA2 149 AAG 151
+                             666 PP
+
+>> tr|Q472T4|Q472T4_CUPPJ  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.4   0.0   1.9e-26     2e-26       4     167 .]      48     212 ..      47     212 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 85.4 bits;  conditional E-value: 1.9e-26
+                             --B---B-S----HHHHHHHHHHH..........HTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHH CS
+          Nitroreductase   4 RrSiRkfddepvpkeeleelleaa..........rraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeensk 80 
+                             R+S+R+fd +p+p  +l+ell+aa          r+aPs  +   +++yv+  ++ ++++ +  + + l+  a+++         s 
+  tr|Q472T4|Q472T4_CUPPJ  48 RKSTREFDQQPLPLKQLSELLWAAagvnrslgggRTAPSPYGETVIDVYVA-LPAGLYRYDPVHHCLELKRAADLR---------SM 124
+                             99*************************************************.89*******999999888888886.........34 PP
+
+                             HHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE CS
+          Nitroreductase  81 llrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavG 166
+                             +++qd+++ ap+ +v++a++ ++++ +++ ++ ++a++ag++a+n +L+++s+Glg+++ g+++ +++a+++ l + e+++l  ++G
+  tr|Q472T4|Q472T4_CUPPJ 125 TGYQDFVGMAPLDLVFVANHGRMQEMPPKLRETFSAAAAGAMAENAYLYCASAGLGAVVRGWLNRRQLAEHMSLNEdEEPILSQTIG 211
+                             89*************************************************************************99****999999 PP
+
+                             - CS
+          Nitroreductase 167 y 167
+                             +
+  tr|Q472T4|Q472T4_CUPPJ 212 R 212
+                             5 PP
+
+>> sp|Q56691|FRP_VIBHA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.0   2.9   2.1e-25   2.2e-25       2     167 .]       9     159 ..       8     159 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 82.0 bits;  conditional E-value: 2.1e-25
+                          HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSS CS
+       Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgap 91 
+                           + rSiRkf++ p+++e+ +++++a+  a s++ lq + ++ v+++e+r +la+ a +q+ +e aa++l++  + + +++++ d+ ++  
+  sp|Q56691|FRP_VIBHA   9 LAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFT 98 
+                          678*********************************************************************987777777777777777 PP
+
+                          EEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE- CS
+       Nitroreductase  92 vlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivavGy 167
+                           l +i                   a+d+gi+aqn lLaA+s+Glg ++igg+ ++a  v++llglp+   ++  +++G+
+  sp|Q56691|FRP_VIBHA  99 ELTLI------------------GAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAaqVDELLGLPEnSAVLFGMCLGH 159
+                          77777..................9*****************************77778********9899999999997 PP
+
+>> sp|F4KU78|IYD_HALH1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.5   0.0   6.9e-26   7.2e-26       3     167 .]      33     200 ..      31     200 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 83.5 bits;  conditional E-value: 6.9e-26
+                          H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHH.HHHHHHHHTT-SS-GGGGGG.HHHHHHHHHHHHS CS
+       Nitroreductase   3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaa.leqlleeeaaaellaekeee.nskllrqdalrga 90 
+                           Rr++R+f++  +p e++e ++ +a++aPs+ + qpw f+vvs++++++k+++aa +e++++ + ++++   ++ +   +++++++l+ a
+  sp|F4KU78|IYD_HALH1  33 HRRTVREFSNRAIPLEVIENIVMTASTAPSGAHKQPWTFVVVSDPQIKAKIRQAAeKEEFESYNGRMSNEWLEDLQpFGTDWHKPFLEIA 122
+                          7***********************************************99998762667777788887777766668999********** PP
+
+                          SEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE- CS
+       Nitroreductase  91 pvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavGy 167
+                          p+liv+ ++a + + ++++r++ + + ++gia+  ll a + +Gl +   +  ++  ++k+l+ p+ er+ l+v+vGy
+  sp|F4KU78|IYD_HALH1 123 PYLIVVFRKAYDVLPDGTQRKNYYVQESVGIACGFLLAAIHQAGLVALTHTPSPMNFLQKILQRPEnERPFLLVPVGY 200
+                          ***********************************************9999999999********99**********9 PP
+
+>> sp|P94424|NFRA2_BACSU  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.9   0.1   1.9e-24     2e-24       3     167 .]      10     165 ..       8     165 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 78.9 bits;  conditional E-value: 1.9e-24
+                            H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHS CS
+         Nitroreductase   3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrga 90 
+                              rSiR ++depv +e+l++++ea + aPs+ n q++ ++ v+++e ++k++e+a +q +  +a+ +ll+ ++     ++r++++ + 
+  sp|P94424|NFRA2_BACSU  10 DHRSIRSYTDEPVAQEQLDQIIEAVQSAPSSINGQQVTVITVQDKERKKKISELAGGQPWIDQAPVFLLFCAD-----FNRAKIALED 92 
+                            68****************************************99**************************976.....6666666665 PP
+
+                            SEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG..GGHHHHHHT-S..SEEEEEEEEE- CS
+         Nitroreductase  91 pvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd..eaavakllglpk.erlvlivavGy 167
+                             + + +       e  ++ ++  + a+dagia+ +   aA+slGlg+++ig++    +++ +ll+lpk   ++  + +G+
+  sp|P94424|NFRA2_BACSU  93 LHDFKM-------EITNGLESVLVGAVDAGIALGTATAAAESLGLGTVPIGAVRgnPQELIELLELPKyVFPLSGLVIGH 165
+                            555555.......8889*************************************75555********9888888888886 PP
+
+>> tr|A9CKT4|A9CKT4_AGRFC  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.5   0.1   4.9e-16   5.1e-16       3      46 ..      19      63 ..      18      74 .. 0.91
+   2 !   27.8   0.0   9.3e-09   9.7e-09      80     166 ..      75     162 ..      62     163 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 51.5 bits;  conditional E-value: 4.9e-16
+                            H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE..- CS
+          Nitroreductase  3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvv.ss 46
+                             R+S R+fd +p+pke+l ++l+aa++aPsa+n qpwrf+ + ++
+  tr|A9CKT4|A9CKT4_AGRFC 19 DRWSPRAFDGSPMPKEHLLTILDAAHWAPSASNHQPWRFVYAhKD 63
+                            69**************************************99443 PP
+
+  == domain 2  score: 27.8 bits;  conditional E-value: 9.3e-09
+                             HHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEE CS
+          Nitroreductase  80 kllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivav 165
+                              +++q+++++a vl+++  + ++  + +e++  ++   dag+a  +l ++A+ lG+ +  +gg+ ++++ + l++p+  ++ + va+
+  tr|A9CKT4|A9CKT4_AGRFC  75 MEGNQKWAKNASVLLFVISRDHTISHEGEKKPSATHSFDAGAAWFSLAMQAHLLGYHAHGMGGIFKDRIVEKLDIPDgFKVEAGVAI 161
+                             5899*************9999999999*************************************************99999999999 PP
+
+                             E CS
+          Nitroreductase 166 G 166
+                             G
+  tr|A9CKT4|A9CKT4_AGRFC 162 G 162
+                             9 PP
+
+>> tr|Q7BGI8|Q7BGI8_HELPX  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.6   0.0   4.8e-24     5e-24       3     153 ..      12     176 ..      11     196 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 77.6 bits;  conditional E-value: 4.8e-24
+                             H--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG........... CS
+          Nitroreductase   3 qRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee........... 77 
+                             qR   +k+d+++ +++ + e+l+e +r aPs+ +l+pw+ +++++e+ +e+l++ a+++l   e a +++ + + +           
+  tr|Q7BGI8|Q7BGI8_HELPX  12 QRFAAKKYDPNRrISQKDWEALVEVGRLAPSSIGLEPWKMLLLKNERMKEDLKPMAWGALFGLEGASHFVIYLARKgvtydsdyvkk 98 
+                             78899***********************************************************99999998555567777777777 PP
+
+                             .HHHHHHHHHHHHSSEEEEE.---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT CS
+          Nitroreductase  78 .nskllrqdalrgapvlivi.taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllg 153
+                               ++ +++d   ++ +  +i ++++++++  +e++ +++a ++++i ++n+++aA++lG++sc+i+g d+++v+  l+
+  tr|Q7BGI8|Q7BGI8_HELPX  99 vMHEVKKRDYDTNSRFAQIIkNFQENDMKLNSERSLFDWASKQTYIQMANMMMAAAMLGIDSCPIEGYDQEKVEAYLE 176
+                             74444444444444444444799**********************************************999877665 PP
+
+>> tr|A0A0K0VJM8|A0A0K0VJM8_PRIMG  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.5   0.0     2e-23   2.1e-23       1     167 []       8     164 ..       8     164 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 75.5 bits;  conditional E-value: 2e-23
+                                     HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHH CS
+                  Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeens 79 
+                                     i+  rSiR+++de v++e+l+++++ a+ a+s+ n q++ ++ v+++e+++kl+e+a +q++  +a+++l++ ++    
+  tr|A0A0K0VJM8|A0A0K0VJM8_PRIMG   8 IQDHRSIRQYTDEAVSDEHLDTIIQSAQSAASSINGQQVTIISVQDKEKKKKLSELAGNQAWIDQAPLFLIFCAD--FN 84 
+                                     5679*********************************************************************88..66 PP
+
+                                     HHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S. CS
+                  Nitroreductase  80 kllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk 156
+                                     +++ ++ l++ap+ +             + ++  + a dagi +++  +aA+slGlg+++igg+      v +ll+lp+
+  tr|A0A0K0VJM8|A0A0K0VJM8_PRIMG  85 RAKIAAELNDAPLGVTD-----------GLESILVGATDAGISLEAATVAAESLGLGTVPIGGIRRKPleVIELLDLPE 152
+                                     67777777777777666...........*************************************77778********9 PP
+
+                                     .SEEEEEEEEE- CS
+                  Nitroreductase 157 .erlvlivavGy 167
+                                        +v  + vG+
+  tr|A0A0K0VJM8|A0A0K0VJM8_PRIMG 153 yVFPVSGLVVGH 164
+                                     999999999997 PP
+
+>> tr|A9CIP6|A9CIP6_AGRFC  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.0   0.1   1.4e-23   1.5e-23       4     166 ..      14     169 ..      11     170 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 76.0 bits;  conditional E-value: 1.4e-23
+                             --B---B-.S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHH CS
+          Nitroreductase   4 RrSiRkfd.dep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalr 88 
+                             RrS+ +++ +ep ++k e+ee+l+ a r+P++g+l pwrf+v+ ++e+r +l+eaal  +le+++++ l++        +  + ++ 
+  tr|A9CIP6|A9CIP6_AGRFC  14 RRSTPALQlSEPgPSKGEIEEILRLAVRVPDHGKLAPWRFVVY-RGEERVRLSEAALRIALEKNPDLDLQQQ-------EAERTRFT 92 
+                             6666544325778******************************.9***********************9997.......88****** PP
+
+                             HSSEEEEE---TTS---HHH.HHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE CS
+          Nitroreductase  89 gapvlivitaeaseqerkae.erayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivavG 166
+                             +apv+i++      + +k++ +  ++e++++ag+++ n+++aA + G+++ w++ +++++  +   +g++  e++ + +++G
+  tr|A9CIP6|A9CIP6_AGRFC  93 RAPVVIAV-----ISTAKPHfKIPEWEQVMSAGAVCLNVIFAANASGFAANWLTEWLAFDpaFLAEIGVSAeEKVAGYIHIG 169
+                             ********.....4444444267788999****************************99999********77*******999 PP
+
+>> sp|O25608|RDXA_HELPY  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.0   0.1   1.2e-22   1.3e-22       3     167 .]      15     190 ..      13     190 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 73.0 bits;  conditional E-value: 1.2e-22
+                           H--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHH..HHHHHHHTT-SS-GGGGGG.....HHHHHH CS
+        Nitroreductase   3 qRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaal..eqlleeeaaaellaekeee.....nskllr 83 
+                           +R+S++ fd+    +  elee+ e+ar +Ps+ n+qpw+f++v++++l++++a ++   e++ ++  a+ ++ +          +  + 
+  sp|O25608|RDXA_HELPY  15 ERHSCKMFDSHYeFSSTELEEIAEIARLSPSSYNTQPWHFVMVTDKDLKKQIAAHSYfnEEMIKSASALMVVCS--LRpsellPHGHYM 101
+                           8************************************************7777775421333333333333332..2223466333344 PP
+
+                           HHHHHHSSEEEEE...---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S...SEEEEEEEEE- CS
+        Nitroreductase  84 qdalrgapvlivi...taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp..kerlvlivavGy 167
+                           q    ++  + vi   + +      ++++r +++ + +++ia+ ++++    +Gl+sc+iggfd  +v ++l+    k ++ +++a+G+
+  sp|O25608|RDXA_HELPY 102 QNLYPESYKVRVIpsfAQMLGVRFNHSMQRLESYILEQCYIAVGQICMGVSLMGLDSCIIGGFDPLKVGEVLEERinKPKIACLIALGK 190
+                           4444444444444666777999999***************************************999888886555247*******996 PP
+
+>> tr|Q9CED0|Q9CED0_LACLA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.7   0.0   7.3e-23   7.6e-23       2     166 ..       8     180 ..       7     181 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 73.7 bits;  conditional E-value: 7.3e-23
+                             HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             ++Rr+i+++  +   ++ ++e++ ea r++P+a+n+q  r++++ ++++ +kl++ +    l++  +a+ ++e++++n +++ + + 
+  tr|Q9CED0|Q9CED0_LACLA   8 ENRRTIYALGRNVqDEEKVIETIKEAVRFSPTAFNSQTGRLLIL-TGDAQDKLWDEIVAPELKAAMEAQGVPESAWDNTRAKLDGFK 93 
+                             68*******99996666679************************.9***************************************** PP
+
+                             HHSSEEEEE.....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG..GGHHHHHHT-S..SEEEEEEEEE CS
+          Nitroreductase  88 rgapvlivi.....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd..eaavakllglpk.erlvlivavG 166
+                             +  ++++++     +++ +eq + +++  ++++ + +gi+  n+++a+++lGlg+  +++++  ++avak ++lp+ ++l +++ +G
+  tr|Q9CED0|Q9CED0_LACLA  94 AAFGTILFFedqavVKNLQEQFALYADNFPVWSEQGSGIISVNVWTALAELGLGANLQHYNPliDEAVAKEWNLPEsWKLRGQLVFG 180
+                             **************************************************************65555********99*******999 PP
+
+>> tr|Q9CED0|Q9CED0_LACLA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.7   0.0   7.3e-23   7.6e-23       2     166 ..       8     180 ..       7     181 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 73.7 bits;  conditional E-value: 7.3e-23
+                             HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             ++Rr+i+++  +   ++ ++e++ ea r++P+a+n+q  r++++ ++++ +kl++ +    l++  +a+ ++e++++n +++ + + 
+  tr|Q9CED0|Q9CED0_LACLA   8 ENRRTIYALGRNVqDEEKVIETIKEAVRFSPTAFNSQTGRLLIL-TGDAQDKLWDEIVAPELKAAMEAQGVPESAWDNTRAKLDGFK 93 
+                             68*******99996666679************************.9***************************************** PP
+
+                             HHSSEEEEE.....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG..GGHHHHHHT-S..SEEEEEEEEE CS
+          Nitroreductase  88 rgapvlivi.....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd..eaavakllglpk.erlvlivavG 166
+                             +  ++++++     +++ +eq + +++  ++++ + +gi+  n+++a+++lGlg+  +++++  ++avak ++lp+ ++l +++ +G
+  tr|Q9CED0|Q9CED0_LACLA  94 AAFGTILFFedqavVKNLQEQFALYADNFPVWSEQGSGIISVNVWTALAELGLGANLQHYNPliDEAVAKEWNLPEsWKLRGQLVFG 180
+                             **************************************************************65555********99*******999 PP
+
+>> sp|Q9DCX8|IYD1_MOUSE  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.3   0.0   8.2e-22   8.5e-22       2     167 .]      94     263 ..      93     263 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 70.3 bits;  conditional E-value: 8.2e-22
+                           HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG..HHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee..nskllrqdalr 88 
+                            +RrS+R  ++e vp e++e +++aa +aPs+ +++pw f+vv++++ + k++e++ e+ + +  +   ++  ++    ++++ ++ l+
+  sp|Q9DCX8|IYD1_MOUSE  94 NKRRSVRFISSEHVPMEVIENVIKAAGTAPSGAHTEPWTFVVVKDPDMKHKIREIIEEEEEINYMKRMGKRWVTDLkkLRTNWIKEYLD 182
+                           58**************************************************99999988877777665555554488999******** PP
+
+                           HSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG.GGHHHHHHT-S..SEEEEEEEEE- CS
+        Nitroreductase  89 gapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd.eaavakllglpk.erlvlivavGy 167
+                           +apvli+i ++ +   + ++++   +  ++++ia+  ll a++ +Gl ++ ++ ++   +++ llg p+ e+l+++++vGy
+  sp|Q9DCX8|IYD1_MOUSE 183 TAPVLILIFKQVHGFAANGKKKVHYYNEISVSIACGLLLAALQNAGLVTVTTTPLNcGPRLRVLLGRPShEKLLVLLPVGY 263
+                           ********55556666666666666899****************************8888********99**********9 PP
+
+>> sp|Q9DCX8|IYD1_MOUSE  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.3   0.0   8.2e-22   8.5e-22       2     167 .]      94     263 ..      93     263 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 70.3 bits;  conditional E-value: 8.2e-22
+                           HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG..HHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee..nskllrqdalr 88 
+                            +RrS+R  ++e vp e++e +++aa +aPs+ +++pw f+vv++++ + k++e++ e+ + +  +   ++  ++    ++++ ++ l+
+  sp|Q9DCX8|IYD1_MOUSE  94 NKRRSVRFISSEHVPMEVIENVIKAAGTAPSGAHTEPWTFVVVKDPDMKHKIREIIEEEEEINYMKRMGKRWVTDLkkLRTNWIKEYLD 182
+                           58**************************************************99999988877777665555554488999******** PP
+
+                           HSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG.GGHHHHHHT-S..SEEEEEEEEE- CS
+        Nitroreductase  89 gapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd.eaavakllglpk.erlvlivavGy 167
+                           +apvli+i ++ +   + ++++   +  ++++ia+  ll a++ +Gl ++ ++ ++   +++ llg p+ e+l+++++vGy
+  sp|Q9DCX8|IYD1_MOUSE 183 TAPVLILIFKQVHGFAANGKKKVHYYNEISVSIACGLLLAALQNAGLVTVTTTPLNcGPRLRVLLGRPShEKLLVLLPVGY 263
+                           ********55556666666666666899****************************8888********99**********9 PP
+
+>> tr|Q5LB10|Q5LB10_BACFN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.9   0.0   5.3e-22   5.5e-22       2     167 .]      42     209 ..      41     209 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 70.9 bits;  conditional E-value: 5.3e-22
+                             HH--B---B-S----HHHHHHHHHHH..........HTS--GGG---EEEEEE..-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG CS
+          Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaa..........rraPsagnlqpwrfyvv.sseelreklaeaaleqlleeeaaaellaekeee 77 
+                              +R+S+R++ ++ ++  +l+ ll+aa          r+aPsa+n+q +++yvv  ++  +++ + + l+++ e + + +        
+  tr|Q5LB10|Q5LB10_BACFN  42 SERHSTREYASKALSNTDLSDLLWAAnginrssegkRTAPSAMNRQDIDIYVVlPQGTYLYDAKGHKLNLISEGDHRSA-------- 120
+                             68***************************************************66666666666666666666666665........ PP
+
+                             HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEE CS
+          Nitroreductase  78 nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvliv 163
+                                ++ q+++++apv +v++ + s+  + +    +   a+dagi+ qn+ L + ++ l++++   +d  +++ +l l++ + +++  
+  tr|Q5LB10|Q5LB10_BACFN 121 --VAGGQAFVNNAPVSLVLVSDLSKLGDAKSNHVQLMGAMDAGIVSQNISLFCSAARLATVPRASMDLVRLKAALKLKDtQMPMMNH 205
+                             ..3789*************9999999999999999999****************************************99******* PP
+
+                             EEE- CS
+          Nitroreductase 164 avGy 167
+                             +vGy
+  tr|Q5LB10|Q5LB10_BACFN 206 PVGY 209
+                             ***8 PP
+
+>> sp|P39605|NFRA1_BACSU  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.3   0.1   1.7e-21   1.7e-21       1     167 []       8     165 ..       8     165 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 69.3 bits;  conditional E-value: 1.7e-21
+                            HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHH CS
+         Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalr 88 
+                            i + rSiR f+d+ +++ee+++l++ a+ a +++ +q   ++ vs++e++++l+ +a +q  +e+  +++++ ++ + +++l+ ++ +
+  sp|P39605|NFRA1_BACSU   8 ILNHRSIRSFTDQLLTAEEIDTLVKSAQAASTSSYVQAYSIIGVSDPEKKRELSVLAGNQPYVEKNGHFFVFCADLYRHQQLAEEKGE 95 
+                            5689*********************************************************************994444444444433 PP
+
+                            HSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE- CS
+         Nitroreductase  89 gapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivavGy 167
+                            +              e  ++ +++ ++++da++aaqn+ +aA+s+Glg c+igg+ ++   v ++l+ p+   ++  +avG+
+  sp|P39605|NFRA1_BACSU  96 HIS------------ELLENTEMFMVSLIDAALAAQNMSIAAESMGLGICYIGGIRNELdkVTEVLQTPDhVLPLFGLAVGH 165
+                            333............33688************************************77777********6444458888886 PP
+
+>> sp|P17117|NFSA_ECOLI  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0   1.5   3.6e-20   3.7e-20       3     167 .]      10     159 ..       8     159 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 3.6e-20
+                           H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSS CS
+        Nitroreductase   3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgap 91 
+                           + rSiR+f+dep+++++ e++++ ar   s++ lq   ++ +++++lre+l  +  +q  +++aa++ ++ ++            ++  
+  sp|P17117|NFSA_ECOLI  10 GHRSIRHFTDEPISEAQREAIINSARATSSSSFLQCSSIIRITDKALREELVTLTGGQKHVAQAAEFWVFCAD------------FNRH 86 
+                           68****************************************************************9999866............4444 PP
+
+                           EEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG..GGHHHHHHT-S.SEEE..EEEEEE- CS
+        Nitroreductase  92 vlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd..eaavakllglpkerlv..livavGy 167
+                           + i+       + + + +++    ++d++++aqn l+aA+slGlg ++igg+   ++av kll lp ++++    +++G+
+  sp|P17117|NFSA_ECOLI  87 LQICP------DAQLGLAEQLLLGVVDTAMMAQNALIAAESLGLGGVYIGGLRnnIEAVTKLLKLP-QHVLplFGLCLGW 159
+                           44444......444455679999*****************************977888********.7776557777776 PP
+
+>> sp|P17117|NFSA_ECOLI  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0   1.5   3.6e-20   3.7e-20       3     167 .]      10     159 ..       8     159 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 3.6e-20
+                           H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHSS CS
+        Nitroreductase   3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrgap 91 
+                           + rSiR+f+dep+++++ e++++ ar   s++ lq   ++ +++++lre+l  +  +q  +++aa++ ++ ++            ++  
+  sp|P17117|NFSA_ECOLI  10 GHRSIRHFTDEPISEAQREAIINSARATSSSSFLQCSSIIRITDKALREELVTLTGGQKHVAQAAEFWVFCAD------------FNRH 86 
+                           68****************************************************************9999866............4444 PP
+
+                           EEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG..GGHHHHHHT-S.SEEE..EEEEEE- CS
+        Nitroreductase  92 vlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd..eaavakllglpkerlv..livavGy 167
+                           + i+       + + + +++    ++d++++aqn l+aA+slGlg ++igg+   ++av kll lp ++++    +++G+
+  sp|P17117|NFSA_ECOLI  87 LQICP------DAQLGLAEQLLLGVVDTAMMAQNALIAAESLGLGGVYIGGLRnnIEAVTKLLKLP-QHVLplFGLCLGW 159
+                           44444......444455679999*****************************977888********.7776557777776 PP
+
+>> sp|Q6PHW0|IYD1_HUMAN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.0   0.0   4.1e-21   4.3e-21       2     167 .]      98     267 ..      97     267 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 68.0 bits;  conditional E-value: 4.1e-21
+                           HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG..HHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee..nskllrqdalr 88 
+                            +RrS+R  ++e vp e+++ ++++a +aPs+ +++pw f+vv++++++ k+++++ e+ + +  +   ++  ++    ++++ ++ l+
+  sp|Q6PHW0|IYD1_HUMAN  98 NKRRSVRFISNEQVPMEVIDNVIRTAGTAPSGAHTEPWTFVVVKDPDVKHKIRKIIEEEEEINYMKRMGHRWVTDLkkLRTNWIKEYLD 186
+                           58****************************************************999998888777766665555589999******** PP
+
+                           HSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG.GGHHHHHHT-S..SEEEEEEEEE- CS
+        Nitroreductase  89 gapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd.eaavakllglpk.erlvlivavGy 167
+                           +ap li+i ++ +   + ++++   +  ++++ia+  ll a++ +Gl ++ ++ ++   +++ llg p  e+l+++++vGy
+  sp|Q6PHW0|IYD1_HUMAN 187 TAPILILIFKQVHGFAANGKKKVHYYNEISVSIACGILLAALQNAGLVTVTTTPLNcGPRLRVLLGRPAhEKLLMLLPVGY 267
+                           ********55555666666666666899****************************8888********99**********9 PP
+
+>> sp|Q6PHW0|IYD1_HUMAN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.0   0.0   4.1e-21   4.3e-21       2     167 .]      98     267 ..      97     267 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 68.0 bits;  conditional E-value: 4.1e-21
+                           HH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG..HHHHHHHHHHH CS
+        Nitroreductase   2 rqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee..nskllrqdalr 88 
+                            +RrS+R  ++e vp e+++ ++++a +aPs+ +++pw f+vv++++++ k+++++ e+ + +  +   ++  ++    ++++ ++ l+
+  sp|Q6PHW0|IYD1_HUMAN  98 NKRRSVRFISNEQVPMEVIDNVIRTAGTAPSGAHTEPWTFVVVKDPDVKHKIRKIIEEEEEINYMKRMGHRWVTDLkkLRTNWIKEYLD 186
+                           58****************************************************999998888777766665555589999******** PP
+
+                           HSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG.GGHHHHHHT-S..SEEEEEEEEE- CS
+        Nitroreductase  89 gapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfd.eaavakllglpk.erlvlivavGy 167
+                           +ap li+i ++ +   + ++++   +  ++++ia+  ll a++ +Gl ++ ++ ++   +++ llg p  e+l+++++vGy
+  sp|Q6PHW0|IYD1_HUMAN 187 TAPILILIFKQVHGFAANGKKKVHYYNEISVSIACGILLAALQNAGLVTVTTTPLNcGPRLRVLLGRPAhEKLLMLLPVGY 267
+                           ********55555666666666666899****************************8888********99**********9 PP
+
+>> sp|P46072|FRA1_ALIFS  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.7   0.2     5e-21   5.2e-21       2     167 .]      10     193 ..       9     193 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 67.7 bits;  conditional E-value: 5e-21
+                           HH--B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG............ CS
+        Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee............ 77 
+                           ++R++ +k+d+++ v++e+l+ llea r ++s+ n+qpw+f+v++s+++++++ +++++  + ++++ +  ++                
+  sp|P46072|FRA1_ALIFS  10 ENRYTSKKYDPSKkVSQEDLAVLLEALRLSASSINSQPWKFIVIESDAAKQRMHDSFANMHQFNQPHIKACSH-VILfanklsytrddy 97 
+                           78******************************************99****99999998877776666543333.223566699999999 PP
+
+                           ....HHHHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S...SEEE CS
+        Nitroreductase  78 ....nskllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglp.k.erlv 160
+                               +++   + ++++ +   +++++++e + +++ ++ +++  +a++a+ n l  +++l+++s  ++g+d + + +++  + k +++ 
+  sp|P46072|FRA1_ALIFS  98 dvvlSKAVADKRITEEQKEAAFASFKFVELNCDENGEHKAWTKPQAYLALGNALHTLARLNIDSTTMEGIDPELLSEIFADElKgYECH 186
+                           ***87777888888888888888999***************************************************995555459999 PP
+
+                           EEEEEE- CS
+        Nitroreductase 161 livavGy 167
+                           +++a+Gy
+  sp|P46072|FRA1_ALIFS 187 VALAIGY 193
+                           9999998 PP
+
+>> tr|Q8DW21|Q8DW21_STRMU  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.0   0.1   4.2e-21   4.4e-21       2     166 ..       9     177 ..       9     178 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 68.0 bits;  conditional E-value: 4.2e-21
+                             HH--B---B-S--.--HHHHHHHHHHH.HTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHH CS
+          Nitroreductase   2 rqRrSiRkfddep.vpkeeleelleaa.rraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqda 86 
+                             +qRrSi+++ ++  ++k+el +l+++a  +aPsa+n+q  r +v+  ++  ++++++++ + le+ ++ae  a +     k++  ++
+  tr|Q8DW21|Q8DW21_STRMU   9 KQRRSIYALGKTVdLSKAELVALIQNAiKQAPSAFNSQTSRALVL-FGQDSQDFWNKIAYSELEKVTPAEAFAGT-----KAKLESF 89 
+                             69*************************899***************.44555566666655555555555544443.....48999** PP
+
+                             HHHSSEEEEE.....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEE CS
+          Nitroreductase  87 lrgapvlivi.....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivav 165
+                             ++g ++++++     +++ +e    ++e  + ++ +++gia+ +++La++++++g+ ++++++  +  va+  +lp  +++ +++++
+  tr|Q8DW21|Q8DW21_STRMU  90 AAGVGTILLFedqavVRNLEENFPLYAENFQPWSEQAHGIALYAIWLALAEQNIGMSVQHYNPLVDaqVAEKYDLPTnWKMRAQIPF 176
+                             ***************************************************************55556********88********* PP
+
+                             E CS
+          Nitroreductase 166 G 166
+                             G
+  tr|Q8DW21|Q8DW21_STRMU 177 G 177
+                             9 PP
+
+>> tr|Q5R179|Q5R179_IDILO  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.8   0.0   3.9e-20     4e-20       3     167 .]       9     184 ..       8     184 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 64.8 bits;  conditional E-value: 3.9e-20
+                             H--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGG.........HHH CS
+          Nitroreductase   3 qRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeee.........nsk 80 
+                             +R+ +  f+   +++++l++ll+++r  +s+ +lqp  ++v++++ lre+l +++++q+++++  a +++ +++          +s+
+  tr|Q5R179|Q5R179_IDILO   9 WRYATADFSGAHITDDVLDKLLNTTRLTASSYGLQPYCTLVIRNKGLREQLVNHSFGQQKVADSSALVIFAAKTGavadivdpyISE 95 
+                             688888999999**********************************************************98877999999999555 PP
+
+                             HHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S...SEEEEEEEE CS
+          Nitroreductase  81 llrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk..erlvlivav 165
+                             l +q  l +  +    + + ++ ++ +++ + ++a+ +a+i + ++lLaA++l ++sc+++g++ +a +++l l++     v +++v
+  tr|Q5R179|Q5R179_IDILO  96 LSQQRQLTNEEAENTRNYFTQKLQAMSAATRKEWAVRQAYIGLGTFLLAAAELEVDSCPMEGIEHDAYDNILSLKDlgLSTVFACPV 182
+                             55555555555544445577788899999**********************************************876777899999 PP
+
+                             E- CS
+          Nitroreductase 166 Gy 167
+                             Gy
+  tr|Q5R179|Q5R179_IDILO 183 GY 184
+                             98 PP
+
+>> tr|Q5L9C9|Q5L9C9_BACFN  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.2   0.1   8.4e-18   8.8e-18       1     167 []       5     160 ..       5     160 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 57.2 bits;  conditional E-value: 8.4e-18
+                             HHH--B---B-S----HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdal 87 
+                             +++Rr+iRk++ + ++++ l+ lle+  ra + g++q   ++v +++e++e l++a ++q  ++ea+ +l + ++     + r  + 
+  tr|Q5L9C9|Q5L9C9_BACFN   5 VKNRRTIRKYQQKDITPDLLNDLLETSFRASTMGGMQLYSVVVTRDAEKKEILSPAHFNQPMVKEAPVVLTFCAD-----FRRFCKY 86 
+                             689******************************************9*************************9987.....4444444 PP
+
+                             HHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  88 rgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpk.erlvlivavGy 167
+                              +    +           +++  ++  aa+d+ ++aq++++ A+++Glg c++g + +    + ++l+lp+   ++ +v+vGy
+  tr|Q5L9C9|Q5L9C9_BACFN  87 CQERNAVPG---------YGNLMSFLNAAMDTLLVAQTFCTLAEEAGLGICYLGTTTYNPqmIIDALHLPElVFPITTVTVGY 160
+                             444444444.........56666777*******************************77779********999999******8 PP
+
+>> tr|Q8KFI1|Q8KFI1_CHLTE  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   1.3   8.9e-17   9.3e-17       5     167 .]      22     162 ..      18     162 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 8.9e-17
+                             -B---B-S--.--HHHHHHHHHHHHTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHHHHHHS CS
+          Nitroreductase   5 rSiRkfddep.vpkeeleelleaarraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqdalrga 90 
+                             rSiR+fd    v +++l+ l+e   + Psa n+q  rf+ v+ ++  +k+ + ++ +   e+ +                 +  r a
+  tr|Q8KFI1|Q8KFI1_CHLTE  22 RSIRRFDEHVaVNDATLRDLVELVCYTPSAANRQLLRFLPVTGADMSDKVFPCLKWAGYLEDWPGP--------------EPGERPA 94 
+                             9****************************************5444445555555555555555554..............4444556 PP
+
+                             SEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGHHHHHHT-S..SEEEEEEEEE- CS
+          Nitroreductase  91 pvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaavakllglpk.erlvlivavGy 167
+                             ++l+++             ++   aa d+giaaq+++L A++  lg c++ ++d ++++  lg+p+ + ++l++a+G+
+  tr|Q8KFI1|Q8KFI1_CHLTE  95 AALVML----------CRNEDLPGAACDSGIAAQTIMLGAAEKELGGCIVAAIDRERLMASLGIPDaWTVLLVIALGK 162
+                             666666..........78999*********************************************9*********96 PP
+
+>> tr|B8HTZ1|B8HTZ1_CYAP4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   0.0     9e-18   9.4e-18       1     161 [.     275     460 ..     275     466 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 9e-18
+                             HHH--B---B-S----HHHHHHHHHHH.....................HTS--GGG---EEEEEE..-CCCH....HHHHHHHHHHH CS
+          Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaa.....................rraPsagnlqpwrfyvv.sseelr....eklaeaaleql 61 
+                             i++RrSiR+++d+p++ ++l e+l                        r +Ps+g l++ ++y + ++   +    + ++++++ + 
+  tr|B8HTZ1|B8HTZ1_CYAP4 275 IETRRSIREYSDQPITLAQLGEFLYRCarvkavytlpedpmqvgesttRPYPSGGALYELEIYPLvHQCGDLaaglYHYQPLSHTLH 361
+                             789*******************9976669999999999999999999888*************998876666788999*******99 PP
+
+                             HHHHTT-SS-GGGGGGHHHHHHHHHHHHSSEEEEE.---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH CS
+          Nitroreductase  62 leeeaaaellaekeeenskllrqdalrgapvlivi.taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa 147
+                             ++++   e+ +       +++r+      p +++i ta++ +  +k+++ ay+  ++++g ++q+++L+At++ l+   ig+ +  +
+  tr|B8HTZ1|B8HTZ1_CYAP4 362 PVADWTPEVESLVY----DAWRATGQQSIPQIVLIiTARFGRLFWKYHDIAYSLILKHVGVLYQTFYLVATAMQLAPSAIGAGNTTK 444
+                             99999999999875....799999999999999999*************************************************** PP
+
+                             HHHHHT-S...SEEEE CS
+          Nitroreductase 148 vakllglpk..erlvl 161
+                             ++++ gl +  e  v+
+  tr|B8HTZ1|B8HTZ1_CYAP4 445 FCQIAGLNPdeEASVG 460
+                             *******955455555 PP
+
+>> tr|A0R2V4|A0R2V4_MYCS2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   0.1   6.3e-05   6.6e-05      12      44 ..       3      35 ..       2      47 .. 0.85
+   2 ?    5.3   0.0     0.077      0.08     106     144 ..      50      88 ..      42     109 .. 0.85
+   3 !   16.4   0.0   2.9e-05     3e-05      80     145 ..     221     277 ..     139     287 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 6.3e-05
+                            S----HHHHHHHHHHHHTS--GGG---EEEEEE CS
+          Nitroreductase 12 depvpkeeleelleaarraPsagnlqpwrfyvv 44
+                            d++++ ++l+  ++ a+raPs +n+qpwr+++ 
+  tr|A0R2V4|A0R2V4_MYCS2  3 DTRLDVATLANAVQLAARAPSLHNTQPWRLIAE 35
+                            56678899999******************9875 PP
+
+  == domain 2  score: 5.3 bits;  conditional E-value: 0.077
+                             HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGG CS
+          Nitroreductase 106 kaeerayreaaldagiaaqnllLaAtslGlgscwiggfd 144
+                             ++++r+ rea++++g ++  l +a++++G+++ ++ +++
+  tr|A0R2V4|A0R2V4_MYCS2  50 RSTDRSSREAVMSCGVLLDHLRVALAAAGWDTEVQRFPN 88 
+                             6789999************************98888777 PP
+
+  == domain 3  score: 16.4 bits;  conditional E-value: 2.9e-05
+                             HHHHHHHHHHSSEEEEE---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGG CS
+          Nitroreductase  80 kllrqdalrgapvlivitaeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfde 145
+                                r++al++ +++iv+          ++++  re+aldag  +  +lL +t+ Gl++c+++ + e
+  tr|A0R2V4|A0R2V4_MYCS2 221 HSSRRPALNNDAATIVV---------LSTDGYSREDALDAGEGLSKVLLECTMSGLATCPVTHVTE 277
+                             45556666665566666.........6**********************************98875 PP
+
+>> sp|P37261|FRM2_YEAST  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.0   9.5e-11   9.9e-11       1     165 [.      11     172 ..      11     174 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 9.5e-11
+                           HHH--B---B-S----HHHHHHHHHHH....HTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHH CS
+        Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaa....rraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqd 85 
+                           i++Rr+i+++++e +    l+ + ++      + P+a+n+q  r +++  +++ +++++a++++++ +ea+++  + ++          
+  sp|P37261|FRM2_YEAST  11 ITNRRTIYNLKPELPQGVGLDDVKRTVhvilKNTPTAFNSQVNRAVII-VGDTHKRIWDAVASAMPTAEAKKRPESCRD---------- 88 
+                           789********9866544444444444444799***************.89*********************8555544.......... PP
+
+                           HHHHSSEEEEE.....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S.SEEEEEEEE CS
+        Nitroreductase  86 alrgapvlivi.....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpkerlvlivav 165
+                             +  + +i++     t + +++    +++ +  aa ++g++  + ++a++ lGlg+  ++++d+ +  + +   +  + ++ ++ +
+  sp|P37261|FRM2_YEAST  89 --EAYGSVIFFtdegpTEKLQRDFPALAAAFPTCAAHTTGAVQIQSWTALELLGLGANLQHYNDYVKsaLPQDVPIA-WTVQSQLVF 172
+                           ..5555566666666666667888888888**********************************8775555554444.555555555 PP
+
+>> sp|P37261|FRM2_YEAST  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.0   9.5e-11   9.9e-11       1     165 [.      11     172 ..      11     174 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 9.5e-11
+                           HHH--B---B-S----HHHHHHHHHHH....HTS--GGG---EEEEEE.-CCCHHHHHHHHHHHHHHHHTT-SS-GGGGGGHHHHHHHH CS
+        Nitroreductase   1 irqRrSiRkfddepvpkeeleelleaa....rraPsagnlqpwrfyvvsseelreklaeaaleqlleeeaaaellaekeeenskllrqd 85 
+                           i++Rr+i+++++e +    l+ + ++      + P+a+n+q  r +++  +++ +++++a++++++ +ea+++  + ++          
+  sp|P37261|FRM2_YEAST  11 ITNRRTIYNLKPELPQGVGLDDVKRTVhvilKNTPTAFNSQVNRAVII-VGDTHKRIWDAVASAMPTAEAKKRPESCRD---------- 88 
+                           789********9866544444444444444799***************.89*********************8555544.......... PP
+
+                           HHHHSSEEEEE.....---TTS---HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE-GGGGGH..HHHHHT-S.SEEEEEEEE CS
+        Nitroreductase  86 alrgapvlivi.....taeaseqerkaeerayreaaldagiaaqnllLaAtslGlgscwiggfdeaa..vakllglpkerlvlivav 165
+                             +  + +i++     t + +++    +++ +  aa ++g++  + ++a++ lGlg+  ++++d+ +  + +   +  + ++ ++ +
+  sp|P37261|FRM2_YEAST  89 --EAYGSVIFFtdegpTEKLQRDFPALAAAFPTCAAHTTGAVQIQSWTALELLGLGANLQHYNDYVKsaLPQDVPIA-WTVQSQLVF 172
+                           ..5555566666666666667888888888**********************************8775555554444.555555555 PP
+
+>> tr|Q9X1S2|Q9X1S2_THEMA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.1       0.1      0.11       1      19 [.       7      25 ..       7      35 .. 0.83
+   2 !   10.1   0.0    0.0026    0.0027     107     141 ..      56      90 ..      43     101 .. 0.85
+   3 !   13.5   0.0   0.00023   0.00024      19      42 ..     132     155 ..     113     161 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.1
+                            HHH--B---B-S----HHH CS
+          Nitroreductase  1 irqRrSiRkfddepvpkee 19
+                            i++R+S+R f   ++p+ +
+  tr|Q9X1S2|Q9X1S2_THEMA  7 IENRHSVRDFLERKMPERV 25
+                            789***********99765 PP
+
+  == domain 2  score: 10.1 bits;  conditional E-value: 0.0026
+                             HHHHHHHHHHHHHHHHHHHHHHHHHHTT-EEEEE- CS
+          Nitroreductase 107 aeerayreaaldagiaaqnllLaAtslGlgscwig 141
+                             a++++ + ++++ g   ++++L +t++G+g+cw+ 
+  tr|Q9X1S2|Q9X1S2_THEMA  56 AKAEKHFDELVEYGFQGEQIVLFLTAQGFGTCWMA 90 
+                             56667777889999999****************96 PP
+
+  == domain 3  score: 13.5 bits;  conditional E-value: 0.00023
+                             HHHHHHHHHHTS--GGG---EEEE CS
+          Nitroreductase  19 eleelleaarraPsagnlqpwrfy 42 
+                             e+ +++e +  aPsa n+qpw++ 
+  tr|Q9X1S2|Q9X1S2_THEMA 132 EIVKIVEMTILAPSALNRQPWKIK 155
+                             6789*****************985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (167 nodes)
+Target sequences:                         72  (16664 residues searched)
+Passed MSV filter:                        69  (0.958333); expected 1.4 (0.02)
+Passed bias filter:                       69  (0.958333); expected 1.4 (0.02)
+Passed Vit filter:                        69  (0.958333); expected 0.1 (0.001)
+Passed Fwd filter:                        69  (0.958333); expected 0.0 (1e-05)
+Initial search space (Z):                 72  [actual number of targets]
+Domain search space  (domZ):              69  [number of targets reported over threshold]
+# CPU time: 0.15u 0.10s 00:00:00.25 Elapsed: 00:00:00.45
+# Mc/sec: 6.17
+//
+[ok]
